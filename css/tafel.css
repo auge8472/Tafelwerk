@@ -1,0 +1,92 @@
+body,html {
+background-color:#FFF;
+width:100%;
+margin-bottom:20px;
+padding-bottom:20px;}
+
+h1,h2,h3,h4,h5,p,a,td,th,ul,ol,li,sup,sub,.txt { font-family:Verdana,Helvetica,Arial,sans-serif;}
+h1 { font-size:20px; text-align:center; }
+h2 { font-size:18px; margin-left:10px; }
+h3 { font-size:16px; margin-left:10px; }
+h4,h5,p,td,th,ul,ol,li { font-size:13px; margin-left:10px; }
+sup,sub { font-size:11px; }
+
+p,table { margin-left:10px; }
+
+#top,#anfang {
+width:1px;
+height:1px;
+left:0px;
+top:0px;
+position:absolute;
+font-size:1px;
+line-height:1px;
+}
+
+#links {
+width:160px;
+height:100%;
+top:20px;
+left:20px;
+position:absolute;
+}
+
+#titel {
+margin-top:0px;
+margin-left:0px;
+}
+
+#navi {
+background-color:#C4FAF4;
+border:1px solid #22B;
+width:160px;
+margin-top:10px;
+margin-left:0px;
+}
+
+#data {
+background-color:#F4F4D4;
+border:1px solid #22B;
+width:160px;
+margin-top:10px;
+margin-left:0px;
+}
+
+#cont {
+width:75%;
+top:20px;
+left:190px;
+margin-bottom:20px;
+position:absolute;
+}
+
+a { padding-left:1px; padding-right:1px; }
+
+a:link { font-size:13px; color:#000; text-decoration:none; background-color:#DEF; }
+a:visited { font-size:13px; color:#000080; text-decoration:none; background-color:#FFD; }
+a:hover { font-size:13px; color:#000; text-decoration:underline; background-color:#BBF; }
+a:active { font-size:13px; color:#000; text-decoration:none; background-color:#DDF; }
+a:focus { font-size:13px; color:#000; text-decoration:underline; background-color:#BBF; }
+
+a.txt:link { font-size:13px; color:#0000E0; text-decoration:none; background-color:#FFD; }
+a.txt:visited { font-size:13px; color:#000080; text-decoration:none; background-color:#FDD; }
+a.txt:hover { font-size:13px; color:#000; text-decoration:none; background-color:#DDF; }
+a.txt:active { font-size:13px; color:#000; text-decoration:none; background-color:#DDF; }
+a.txt:focus { font-size:13px; color:#000; text-decoration:none; background-color:#DDF; }
+
+a.anker { color:#000; text-decoration:none; }
+
+.thead { background-color:#C4FFFF; }
+
+.bold { font-weight:bold; }
+
+.block { text-align:justify; }
+
+.perdat { font-weight:bold; color:#050; }
+
+.geo {
+padding:10px;
+width:90%;
+background-color:#F0F0F0;
+border:1px solid #22B;
+}

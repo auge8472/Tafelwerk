@@ -1,0 +1,59 @@
+html {
+width:100%;
+height:100%;
+}
+
+body {
+margin:0;
+padding:0;
+background-color:#fff;
+color:#000;
+font-family:Helvetica,Arial,Tahoma,Verdana,sans-serif;
+}
+
+#top {
+left:0;
+top:0;
+width:0;
+height:0;
+position:absolute;
+}
+
+#links {
+left:0;
+top:0;
+width:160px;
+position:absolute;
+}
+
+#data {
+width:160px;
+margin-top:10px;
+margin-left:0px;
+}
+
+#cont {
+left:170px;
+top:0;
+position:absolute;
+}
+
+#titel { display:none; }
+
+h1,h2,h3,h4,h5,p,table,ul { margin-top:10px; }
+h1 { font-size:20px; }
+h2 { font-size:18px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5,p,table,ul { font-size:13.4px; }
+sup,sub { font-size:10px; }
+.bold,.perdat { font-weight:bold; }
+.perdat { color:#410; }
+
+#cont tr { vertical-align:top; }
+#cont tr.thead { background-color:#f4ffdb; text-align:center; }
+#cont p.geo {
+padding:10px;
+border:1px solid #c60;
+background-color:#F0F0F0;
+}

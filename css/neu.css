@@ -1,0 +1,206 @@
+html {
+width:100%;
+height:100%;
+}
+
+body {
+margin:0;
+padding:0;
+background-color:#fff;
+color:#000;
+font-family:Helvetica,Arial,Tahoma,Verdana,sans-serif;
+font-size:100.1%;
+}
+
+#links,#cont {
+position:static;
+width:auto;
+height:auto;
+left:auto;
+top:auto;
+}
+
+#links {
+padding:0;
+margin:0;
+width:12.5em;
+float:left;
+}
+
+#navi {
+padding:0;
+width:100%;
+}
+
+#data {
+background-color:#f8dfd8;
+border:1px solid #c60;
+border-left:none;
+margin:0.6em 0 1em 0;
+padding:0;
+width:100%;
+}
+
+#data h3 {
+text-align: center;
+}
+
+#data p { margin:0.25em; }
+
+#elementblock {
+width: 8em;
+height: 8em;
+margin: 0.75em auto;
+border: 1px solid #000;
+position: relative;
+}
+
+#elementblock #atommasse {
+position: absolute;
+right: 10px;
+top: 8px;
+font-size: 1.25em;
+}
+
+#elementblock #symbol {
+position: absolute;
+right: 8px;
+bottom: 5px;
+font-size: 3.25em;
+}
+
+#elementblock #ordnungszahl {
+position: absolute;
+left: 8px;
+top: 5px;
+font-size: 1.75em;
+}
+
+#elementblock #elektronennegativitaet {
+position: absolute;
+left: 10px;
+bottom: 12px;
+font-size: 1.25em;
+}
+
+#elementblock.starksauer {
+background-color: #f71010;
+}
+#elementblock.leichtsauer {
+background-color: #ffffbd;
+}
+#elementblock.neutral {
+background-color: #dede00;
+}
+#elementblock.leichtbasisch {
+background-color: #b5b5ff;
+}
+#elementblock.starkbasisch {
+background-color: #6363ff;
+}
+#elementblock.undefiniert {
+background-color: #fff;
+}
+#elementblock.edelgas {
+background-color: #c7c6b2;
+}
+
+#cont {
+border:1px solid #fff;
+padding:0 0.5em;
+margin-left:14em;
+max-width:52em;
+}
+
+#cont[id] { min-height:100%; }
+
+h1,h2,h3,h4,h5,p,table,#cont ul { margin: 0.6em 0; }
+
+h1 { font-size:1.5em; }
+h2 { font-size:1.33em; }
+h3 { font-size:1.2em; }
+h4,h5,p,table,ul { font-size:1.0em; }
+sup,sub { font-size:0.8em; }
+
+#cont p.geo { padding:0.5em; }
+
+/* Links in der Navigation */
+
+#navi ul {
+list-style-type:none;
+padding:0;
+margin:0.6em 0;
+width:100%;
+border-bottom:1px solid #c60;
+border-right:1px solid #c60;
+}
+
+#navi li {
+list-style:none;
+margin:0;
+}
+#navi li#hier {
+padding-left:0.2em;
+border-top:1px solid #c60;
+line-height:1.3em;
+border-left:10px solid #620; }
+
+#navi li a {
+display:block;
+margin:0;
+padding-left:0.2em;
+height:1.3em;
+background-color:#fffcdf;
+border-top:1px solid #c60;
+border-left:10px solid #ea6;
+text-decoration:none;
+}
+#navi li a:hover,#navi li a:focus {
+background-color:#ffffef;
+border-left:10px solid #a60; }
+
+#navi #ext li a {
+border-left:10px solid #8fb;
+background-color:#fffcdf;
+}
+#navi #ext li a:hover,#navi #ext li a:focus {
+background-color:#ecffff;
+border-left:10px solid #0ca;
+}
+
+/* Links im Text */
+
+#cont li { margin:0.3em 0 0 2em; }
+
+#cont li a {
+text-decoration:none;
+padding:0 0.15em;
+}
+#cont li a:link		{ color:#026; background-color:#ffb; }
+#cont li a:visited	{ color:#026; background-color:#eea; }
+#cont li a:hover		{ color:#800; background-color:#ffd8f8; text-decoration:underline; }
+#cont li a:active	{ color:#FF3; background-color:#600; text-decoration:underline; }
+#cont li a:focus		{ color:#800; background-color:#ffd8f8; text-decoration:underline; }
+
+#cont p a:link { color:#009; background-color:#eee; }
+#cont p a:visited { color:#005; background-color:#eee; }
+#cont p a:hover { color:#00d; background-color:#ff8; }
+#cont p a:active { color:#800; background-color:#ff0; }
+#cont p a:focus { color:#00d; background-color:#ff8; }
+
+table.groessen { border-collapse: collapse; border: 0; }
+
+.groessen th, .groessen td { width: 12em; }
+
+.groessen th:nth-child(n+2), .groessen td:nth-child(n+2) { width: 8em; }
+.groessen th:nth-child(n+3), .groessen td:nth-child(n+3) { width: 10em; }
+.groessen th:nth-child(n+4), .groessen td:nth-child(n+4) { width: 14em; }
+
+.groessen th { text-align: left; }
+
+.groessen tbody tr:nth-child(odd) { background-color: #fff }
+.groessen tbody tr:nth-child(even) { background-color: #ffc }
+
+.groessen tbody tr:hover {
+background-color: #ff7;
+}

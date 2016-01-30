@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /button/
+Disallow: /css/
+Disallow: /graphik/
+Disallow: /skript/
+Disallow: /text/
