@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Times New Roman", serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	background: #810;
+}
+
+h1 {
+	margin: 0;
+	padding: 0.25em 0.5em;
+	padding: 0.25rem 0.5rem;
+	color: #fff;
+}
+
+h1 .main-title {
+	font-size: 1.15em;
+	font-size: 1.15rem;
+	display: block;
+}
+h1 .sub-title {
+	font-size: 1.55em;
+	font-size: 1.55rem;
+	display: block;
+}
+
+h2 {
+	margin: 0.25em 0;
+	margin: 0.25rem 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+h3 {
+	margin: 0.25em 0;
+	margin: 0.25rem 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+nav {
+	margin: 0 0.5em;
+	margin: 0 0.5rem;
+	padding: 0;
+}
+nav h2 {
+	display: none;
+}
+nav ul {
+	margin: 1em 0;
+	padding: 0;
+}
+nav li {
+	list-style: none;
+	margin: 0 0 0.35em 0;
+	margin: 0 0 0.35rem 0;
+}
+nav li:last-child {
+	margin: 0;
+}
+nav a {
+	display: inline-block;
+	/*
+	width: calc(100% - 2px - 0.8em);
+	width: calc(100% - 2px - 0.8rem);
+	*/
+	width: 100%;
+	border: 1px solid #ffe;
+	border-radius: 0.2em;
+	border-radius: 0.2rem;
+	padding: 0.2em 0.4em;
+	padding: 0.2rem 0.4rem;
+	text-decoration: none;
+	background: #efa;
+}
+nav a:link, nav a:visited {
+	border-color: #cc5;
+	background: #cc5;
+	color: #220;
+}
+nav a:focus, nav a:hover {
+	border-color: #ee9;
+	background: #ee9;
+	color: #420;
+}
+nav a:active {
+	border-color: #eda;
+	background: #eda;
+	color: #ffc;
+}
+
+main {
+	display: block;
+	margin: 0 0.5em;
+	margin: 0 0.5rem;
+	padding: 0;
+}
+
+table {
+	border: 1px solid #222;
+	border-collapse: collapse;
+}
+
+th, td {
+	/*border: 1px solid #222;*/
+	padding: 0.15em;
+	padding: 0.15rem;
+}
+
+
+/* tables on narrow screens */
+@media screen and (max-width: 30em) {
+	table {
+		width: 100%;
+	}
+	th {
+		display: none;
+	}
+	tr, td {
+		display: block;
+		width: calc(100% - 1px);
+	}
+	td:first-child {
+		font-weight: bold;
+		background-color: #ffb;
+	}
+}
