@@ -9,6 +9,7 @@ html, body {
 
 body {
 	font-family: "Times New Roman", serif;
+	line-height: 150%;
 	margin: 0;
 	padding: 0;
 }
