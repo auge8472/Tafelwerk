@@ -3,3 +3,4 @@ ErrorDocument 404 /fehler404.html
 Redirect 301 /allgemein/masse_brit.html http://tafelwerk.auge8472.de/allgemein/alte-masse.html
 Redirect 301 /astronomie/solarsystem.html http://tafelwerk.auge8472.de/astronomie/index.html
 Redirect 301 /physik/physik00.html http://tafelwerk.auge8472.de/physik/index.html
+Redirect 301 /physik/physik01.html http://tafelwerk.auge8472.de/physik/schall-und-licht.html
