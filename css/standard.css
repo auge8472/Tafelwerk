@@ -146,9 +146,12 @@ tr {
 }
 
 th, td {
-	/*border: 1px solid #222;*/
 	padding: 0.15em;
 	padding: 0.15rem;
+	vertical-align: top;
+}
+th:first-child, td:first-child {
+	border-right: 1px dotted #222;
 }
 
 
@@ -167,6 +170,9 @@ th, td {
 	td:first-child {
 		font-weight: bold;
 		background-color: #ffb;
+	}
+	th:first-child, td:first-child {
+		border-right: none;
 	}
 }
 
