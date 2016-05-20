@@ -11,5 +11,3 @@ Redirect 301 /physik/physik05.html http://tafelwerk.auge8472.de/physik/thermodyn
 
 Redirect 301 /geometrie/geomet00.html http://tafelwerk.auge8472.de/geometrie/index.html
 Redirect 301 /geometrie/geomet05.html http://tafelwerk.auge8472.de/geometrie/kreise.html
-Redirect 301 /geometrie/geomet05.html#kid http://tafelwerk.auge8472.de/geometrie/konstruktionen-kreis.html#dreieck-um-kreis
-Redirect 301 /geometrie/geomet05.html#kud http://tafelwerk.auge8472.de/geometrie/konstruktionen-kreis.html#dreieck-im-kreis
