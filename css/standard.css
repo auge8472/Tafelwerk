@@ -115,10 +115,15 @@ footer {
 	padding: 0;
 	background-color: #ffc;
 }
-footer p {
+footer ul {
 	margin: 0;
 	padding: 0.5em 0.5em;
 	padding: 0.5rem 0.5rem;
+}
+footer li {
+	list-style: none;
+	margin: 0.2em 0;
+	margin: 0.2rem 0;
 }
 a.flattr {
 	display: inline-block;
