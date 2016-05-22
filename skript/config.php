@@ -1,5 +1,5 @@
 <?php
-$hier = $_SERVER["PHP_SELF"];
+$hier = $_SERVER["SCRIPT_NAME"];
 //$dbpfad = "http://tafelwerk.auge8472.de/text/";
 $periode = "../text/periode.txt";
 
