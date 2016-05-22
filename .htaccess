@@ -10,5 +10,6 @@ Redirect 301 /physik/physik04.html http://tafelwerk.auge8472.de/physik/elektrizi
 Redirect 301 /physik/physik05.html http://tafelwerk.auge8472.de/physik/thermodynamik.html
 
 Redirect 301 /geometrie/geomet00.html http://tafelwerk.auge8472.de/geometrie/index.html
+Redirect 301 /geometrie/geomet02.html http://tafelwerk.auge8472.de/geometrie/konstruktionen-mehrecke.html
 Redirect 301 /geometrie/geomet03.html http://tafelwerk.auge8472.de/geometrie/konstruktionen-boegen.html
 Redirect 301 /geometrie/geomet05.html http://tafelwerk.auge8472.de/geometrie/kreise.html
