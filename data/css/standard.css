@@ -73,6 +73,7 @@ nav li:last-child {
 }
 nav a {
 	display: inline-block;
+	box-shadow: 0.1em 0.1em 0.25em hsla(0, 0%, 80%, 0.5);
 	/*
 	width: calc(100% - 2px - 0.8em);
 	width: calc(100% - 2px - 0.8rem);
@@ -127,6 +128,7 @@ footer li {
 }
 a.flattr {
 	display: inline-block;
+	box-shadow: 0.1em 0.1em 0.25em hsla(0, 0%, 80%, 0.5);
 	border: 0;
 	border-radius: 0.2em;
 	border-radius: 0.2rem;
