@@ -28,13 +28,13 @@ h1 {
 }
 
 h1 .main-title {
-	font-size: 1.15em;
-	font-size: 1.15rem;
+	font-size: 1.1em;
+	font-size: 1.1rem;
 	display: block;
 }
 h1 .sub-title {
-	font-size: 1.55em;
-	font-size: 1.55rem;
+	font-size: 1.3em;
+	font-size: 1.3rem;
 	display: block;
 }
 
@@ -203,5 +203,33 @@ th:first-child, td:first-child {
 	nav li:last-child {
 		margin: 0.1em;
 		margin: 0.1rem;
+	}
+}
+
+@media screen and (min-width: 30em) {
+	main {
+		margin: 1em auto 0.5em auto;
+		margin: 1rem auto 0.5rem auto;
+		padding: 0.5em 1em;
+		padding: 0.5rem 1rem;
+	}
+	h1 .main-title {
+		font-size: 1.15em;
+		font-size: 1.15rem;
+	}
+	h1 .sub-title {
+		font-size: 1.5em;
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (min-width: 52em) {
+	main {
+		background: #fbfbfb;
+		border: 1px solid #eee;
+		border-radius: 0.2em;
+		border-radius: 0.2rem;
+		box-shadow: 0.2em 0.2em 0.3em hsla(0, 0%, 80%, 0.3);
+		max-width: 50em;
 	}
 }
