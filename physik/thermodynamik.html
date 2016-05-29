@@ -5,6 +5,7 @@
   <title>Thermodynamik – Mein kleines Tafelwerk</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <link rel="stylesheet" media="all" href="../data/css/standard.css">
+  <script src="../data/js/mathjax/MathJax.js?config=MML_HTMLorMML"></script>
  </head>
  <body>
   <header>
@@ -31,24 +32,21 @@
       <col>
       <col>
       <col>
-      <col>
      </colgroup>
      <thead>
       <tr>
        <th>physikalische Größe</th>
-       <th>Definition</th>
-       <th>Einheitenname</th>
-       <th>Einheitenzeichen</th>
        <th>Formelzeichen</th>
+       <th>Einheit</th>
+       <th>Definition</th>
       </tr>
      </thead>
      <tbody>
       <tr>
        <td>Temperatur</td>
-       <td>Basiseinheit</td>
-       <td>Kelvin, Grad Celsius, Grad Fahrenheit</td>
-       <td>K, °C °F</td>
        <td>T</td>
+       <td>K (Kelvin), °C (Grad Celsius)</td>
+       <td>Basiseinheit</td>
       </tr>
      </tbody>
     </table>
@@ -61,30 +59,45 @@
       <col>
       <col>
       <col>
-      <col>
      </colgroup>
      <thead>
       <tr>
        <th>physikalische Größe</th>
-       <th>Definition</th>
-       <th>Einheitenname</th>
-       <th>Einheitenzeichen</th>
        <th>Formelzeichen</th>
+       <th>Einheit</th>
+       <th>Definition</th>
       </tr>
      </thead>
      <tbody>
       <tr>
        <td>Wärme</td>
-       <td>Leistung mal Zeit</td>
-       <td>Joule</td>
-       <td>J</td>
        <td>Q</td>
+       <td>(J) Joule</td>
+       <td><math>
+        <mi>Q</mi>
+        <mo>=</mo>
+        <mi>W</mi>
+        <mo>&middot;</mo>
+        <mi>t</mi>
+       </math></td>
+       <!--td>Leistung mal Zeit</td-->
       </tr><tr>
        <td>spezifische Wärmekapazität</td>
-       <td>Wärme/Masse x Temperatur</td>
-       <td>Joule je Kilogramm und Kelvin</td>
-       <td>J/kgK</td>
        <td>c</td>
+       <td>J/kgK (Joule je Kilogramm und Kelvin)</td>
+       <td><math>
+        <mi>c</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>Q</mi>
+         <mrow>
+          <mi>m</mi>
+          <mo>&middot;</mo>
+          <mi>T</mi>
+         </mrow>
+        </mfrac>
+       </math></td>
+       <!--td>Wärme/Masse x Temperatur</td-->
       </tr>
      </tbody>
     </table>

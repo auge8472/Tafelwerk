@@ -5,6 +5,7 @@
   <title>Elektrizität – Mein kleines Tafelwerk</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <link rel="stylesheet" media="all" href="../data/css/standard.css">
+  <script src="../data/js/mathjax/MathJax.js?config=MML_HTMLorMML"></script>
  </head>
  <body>
   <header>
@@ -36,24 +37,29 @@
       <col>
       <col>
       <col>
-      <col>
      </colgroup>
      <thead>
       <tr>
        <th>physikalische Größe</th>
-       <th>Definition</th>
-       <th>Einheitenname</th>
-       <th>Einheitenzeichen</th>
        <th>Formelzeichen</th>
+       <th>Einheit</th>
+       <th>Definition</th>
       </tr>
      </thead>
      <tbody>
       <tr>
        <td>Stromstärke</td>
-       <td>Basiseinheit<br>(Spannung/Widerstand)</td>
-       <td>Ampere</td>
-       <td>A</td>
        <td>I</td>
+       <td>A (Ampere)</td>
+       <td><math>
+        <mi>I</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>U</mi>
+         <mi>R</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Basiseinheit<br>(Spannung/Widerstand)</td-->
       </tr>
      </tbody>
     </table>
@@ -66,66 +72,122 @@
       <col>
       <col>
       <col>
-      <col>
      </colgroup>
      <thead>
       <tr>
        <th>physikalische Größe</th>
-       <th>Definition</th>
-       <th>Einheitenname</th>
-       <th>Einheitenzeichen</th>
        <th>Formelzeichen</th>
+       <th>Einheit</th>
+       <th>Definition</th>
       </tr>
      </thead>
      <tbody>
       <tr>
        <td>Spannung</td>
-       <td>Leistung/Stromstärke</td>
-       <td>Volt</td>
-       <td>V</td>
        <td>U</td>
+       <td>V (Volt)</td>
+       <td><math>
+        <mi>U</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>P</mi>
+         <mi>I</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Leistung/Stromstärke</td-->
       </tr><tr>
        <td>Widerstand</td>
-       <td>Spannung/Stromstärke</td>
-       <td>Ohm</td>
-       <td>Ω (Omega)</td>
        <td>R</td>
+       <td>Ω (Omega) (Ohm)</td>
+       <td><math>
+        <mi>R</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>U</mi>
+         <mi>I</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Spannung/Stromstärke</td-->
       </tr><tr>
        <td>Ladung</td>
-       <td>Stromstärke x Zeit</td>
-       <td>Coulomb</td>
-       <td>C</td>
        <td>Q</td>
+       <td>C (Coulomb)</td>
+       <td><math>
+        <mi>Q</mi>
+        <mo>=</mo>
+        <mi>I</mi>
+        <mo>&middot;</mo>
+        <mi>t</mi>
+       </math></td>
+       <!--td>Stromstärke x Zeit</td-->
       </tr><tr>
        <td>Leistung</td>
-       <td>Spannung x Stromstärke</td>
-       <td>Watt</td>
-       <td>W</td>
        <td>P</td>
+       <td>W (Watt)</td>
+       <td><math>
+        <mi>P</mi>
+        <mo>=</mo>
+        <mi>U</mi>
+        <mo>&middot;</mo>
+        <mi>I</mi>
+       </math></td>
+       <!--td>Spannung x Stromstärke</td-->
       </tr><tr>
        <td>Arbeit</td>
-       <td>Leistung x Zeit</td>
-       <td>Joule, Kilowattstunde</td>
-       <td>J, kWh</td>
        <td>W</td>
+       <td>J (Joule), Ws (Wattsekunde)</td>
+       <td><math>
+        <mi>W</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>U</mi>
+         <mi>t</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Leistung x Zeit</td-->
       </tr><tr>
        <td>Feldstärke</td>
-       <td>Spannung/Weg</td>
-       <td>Volt je Meter</td>
-       <td>V/m</td>
        <td>E</td>
+       <td>V/m (Volt/Meter)</td>
+       <td><math>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>U</mi>
+         <mi>s</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Spannung/Weg</td-->
       </tr><tr>
        <td>Kapazität</td>
-       <td>Ladung/Spannung</td>
-       <td>Farad</td>
-       <td>F</td>
        <td>C</td>
+       <td>F (Farad)</td>
+       <td><math>
+        <mi>C</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>Q</mi>
+         <mi>U</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Ladung/Spannung</td-->
       </tr><tr>
        <td>Induktivität</td>
-       <td>Spannung x Zeit/Stromstärke</td>
-       <td>Henry</td>
-       <td>H</td>
        <td>L</td>
+       <td>H (Henry)</td>
+       <td><math>
+        <mi>L</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>U</mi>
+          <mo>&middot;</mo>
+          <mi>t</mi>
+         </mrow>
+         <mi>I</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Spannung x Zeit/Stromstärke</td-->
       </tr>
      </tbody>
     </table>

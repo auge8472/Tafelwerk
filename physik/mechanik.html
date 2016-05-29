@@ -5,6 +5,7 @@
   <title>Mechanik – Mein kleines Tafelwerk</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <link rel="stylesheet" media="all" href="../data/css/standard.css">
+  <script src="../data/js/mathjax/MathJax.js?config=MML_HTMLorMML"></script>
  </head>
  <body>
   <header>
@@ -35,24 +36,21 @@
       <col>
       <col>
       <col>
-      <col>
      </colgroup>
      <thead>
       <tr>
        <th>physikalische Größe</th>
-       <th>Definition</th>
-       <th>Einheitenname</th>
-       <th>Einheitenzeichen</th>
        <th>Formelzeichen</th>
+       <th>Einheit</th>
+       <th>Definition</th>
       </tr>
      </thead>
      <tbody>
       <tr>
        <td>Masse</td>
-       <td>Basiseinheit</td>
-       <td>Gramm</td>
-       <td>g</td>
        <td>m</td>
+       <td>g (Gramm)</td>
+       <td>Basiseinheit</td>
       </tr>
      </tbody>
     </table>
@@ -65,66 +63,120 @@
       <col>
       <col>
       <col>
-      <col>
      </colgroup>
      <thead>
       <tr>
        <th>physikalische Größe</th>
-       <th>Definition</th>
-       <th>Einheitenname</th>
-       <th>Einheitenzeichen</th>
        <th>Formelzeichen</th>
+       <th>Einheit</th>
+       <th>Definition</th>
       </tr>
      </thead>
      <tbody>
       <tr>
        <td>Dichte</td>
-       <td>Masse/Volumen</td>
-       <td>Gramm je Kubikzentimeter</td>
-       <td>g/cm<sup>3</sup></td>
        <td>ρ (Rho)</td>
+       <td>g/cm<sup>3</sup> (Gramm/Kubikzentimeter)</td>
+       <td><math>
+        <mi>ρ</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>m</mi>
+         <mi>V</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Masse/Volumen</td-->
       </tr><tr>
        <td>Kraft</td>
-       <td>Masse x Beschleunigung</td>
-       <td>Newton</td>
-       <td>N</td>
        <td>F</td>
+       <td>N (Newton)</td>
+       <td><math>
+        <mi>F</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <mo>&middot;</mo>
+        <mi>a</mi>
+       </math></td>
+       <!--td>Masse x Beschleunigung</td-->
       </tr><tr>
        <td>mech. Spannung (Druck)</td>
-       <td>Kraft/Fläche</td>
-       <td>Pascal</td>
-       <td>Pa</td>
        <td>p, σ (Sigma)</td>
+       <td>Pa (Pascal)</td>
+       <td><math>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>F</mi>
+         <mi>A</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Kraft/Fläche</td-->
       </tr><tr>
        <td>Arbeit/Energie</td>
-       <td>Kraft x Weg</td>
-       <td>Joule</td>
-       <td>J</td>
        <td>W, E</td>
+       <td>J (Joule)</td>
+       <td><math>
+        <mi>W</mi>
+        <mo>=</mo>
+        <mi>F</mi>
+        <mo>&middot;</mo>
+        <mi>s</mi>
+       </math></td>
+       <!--td>Kraft x Weg</td-->
       </tr><tr>
        <td>Kraft-, Dreh-, Biegemomente</td>
-       <td>Kraft x Weg</td>
-       <td>Newtonmeter</td>
-       <td>Nm</td>
        <td>M</td>
+       <td>Nm (Newtonmeter)</td>
+       <td><math>
+        <mi>M</mi>
+        <mo>=</mo>
+        <mi>F</mi>
+        <mo>&middot;</mo>
+        <mi>s</mi>
+       </math></td>
+       <!--td>Kraft x Weg (z.B. Radius)</td-->
       </tr><tr>
        <td>Leistung</td>
-       <td>Arbeit/Zeit</td>
-       <td>Watt</td>
-       <td>W</td>
        <td>P</td>
+       <td>W (Watt)</td>
+       <td><math>
+        <mi>P</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>W</mi>
+         <mi>t</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Arbeit/Zeit</td-->
       </tr><tr>
        <td>Geschwindigkeit</td>
-       <td>Weg/Zeit</td>
-       <td>Meter je Sekunde</td>
-       <td>m/s, km/h</td>
        <td>v, u</td>
+       <td>m/s (Meter/Sekunde)</td>
+       <td><math>
+        <mi>a</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>s</mi>
+         <mi>t</mi>
+        </mfrac>
+       </math></td>
+       <!--td>Weg/Zeit</td-->
       </tr><tr>
        <td>Beschleunigung</td>
-       <td>Weg/(Zeit zum Quadrat)</td>
-       <td>Meter je Quadratsekunde</td>
-       <td>m/s<sup>2</sup></td>
        <td>a, g</td>
+       <td>m/s<sup>2</sup> (Meter je Quadratsekunde)</td>
+       <td><math>
+        <mi>a</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mi>s</mi>
+         <msup>
+          <mi>t</mi>
+          <mn>2</mn>
+         </msup>
+        </mfrac>
+       </math></td>
+       <!--td>Weg/(Zeit zum Quadrat)</td-->
       </tr>
      </tbody>
     </table>
