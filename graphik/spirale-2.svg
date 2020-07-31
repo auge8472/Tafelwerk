@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  #baseline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .spiral-line { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px;}
+  ]]>
+ </style>
+ <circle class="eyes" cx="160" cy="128" r="3" />
+ <text x="154" y="148">A</text>
+ <circle class="eyes" cx="184" cy="128" r="3" />
+ <text x="178" y="148">B</text>
+ <line id="baseline" x1="4" y1="128" x2="316" y2="128" />
+ <g id="arc-5">
+  <path class="spiral-line" d="M 280 128 A 120 120 180 1 0 40 128" />
+  <g transform="rotate(60, 160, 128)">
+   <line class="radii" x1="158" y1="128" x2="40" y2="128" />
+   <polygon class="arrowhead" points="40,128, 52,124 52,132" />
+  </g>
+ </g>
+ <g id="arc-4">
+  <path class="spiral-line" d="M 88 128 A 96 96 180 1 0 280 128" />
+  <g transform="rotate(60, 184, 128)">
+   <line class="radii" x1="186" y1="128" x2="280" y2="128" />
+   <polygon class="arrowhead" points="280,128, 268,124 268,132" />
+  </g>
+ </g>
+ <g id="arc-3">
+  <path class="spiral-line" d="M 232 128 A 72 72 180 1 0 88 128" />
+  <g transform="rotate(110, 160, 128)">
+   <line class="radii" x1="158" y1="128" x2="88" y2="128" />
+   <polygon class="arrowhead" points="88,128, 100,124 100,132" />
+  </g>
+ </g>
+ <g id="arc-2">
+  <path class="spiral-line" d="M 136 128 A 48 48 180 1 0 232 128" />
+  <g transform="rotate(130, 184, 128)">
+   <line class="radii" x1="186" y1="128" x2="232" y2="128" />
+   <polygon class="arrowhead" points="232,128, 220,124 220,132" />
+  </g>
+ </g>
+ <g id="arc-1">
+  <path class="spiral-line" d="M 184 128 A 24 24 180 1 0 136 128" />
+  <g transform="rotate(155, 160, 128)">
+   <line class="radii" x1="158" y1="128" x2="136" y2="128" />
+   <polygon class="arrowhead" points="136,128, 148,124 148,132" />
+  </g>
+ </g>
+</svg>
