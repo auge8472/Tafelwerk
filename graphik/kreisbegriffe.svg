@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  #circle { fill: none; stroke-width: 3px; stroke: #222; }
+  #diameter line,
+  #radius line,
+  #chord line,
+  #secant line,
+  #tangent line,
+  #periphery path {
+    fill: none;
+    stroke-width: 1px;
+    stroke: #555;
+  }
+  #segment path { fill: #ed4; stroke-width: 1px; stroke: #555; }
+  #sector path { fill: #1d5; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .eyes { fill: #999; stroke: none; }
+  text { font-size: 14px; color: #222; stroke: none; }
+  ]]>
+ </style>
+ <g id="segment">
+  <path d="M 50 92 A 116 116 180 0 0 129 239 L 51 93" />
+  <text x="74" y="200">Segment</text>
+ </g>
+ <g id="sector">
+  <path d="M 145 243 A 116 116 180 0 0 222 225 L 160 128 L 145 243" />
+  <text x="162" y="224">Sektor</text>
+ </g>
+ <g id="periphery">
+  <path d="M 215 19 A 122 122 180 1 0 201 243" />
+  <path d="M 273 174 A 122 122 180 0 0 259 57" />
+  <!--circle cx="160" cy="128" r="122" /-->
+  <polygon class="arrowhead" points="278,116, 282,128 286,116" />
+  <polygon class="arrowhead" points="278,140, 282,128 286,140" />
+  <text x="290" y="132">u</text>
+ </g>
+ <g id="diameter">
+  <g transform="rotate(-28, 160, 128)">
+   <line x1="44" y1="128" x2="276" y2="128" />
+   <polygon class="diameter arrowhead" points="44,128 56,124 56,132" />
+   <polygon class="diameter arrowhead" points="276,128 264,132 264,124" />
+  </g>
+  <text x="196" y="100">d</text>
+ </g>
+ <g id="radius">
+  <g transform="rotate(32, 160, 128)">
+   <line x1="44" y1="128" x2="160" y2="128" />
+   <polygon class="diameter arrowhead" points="44,128 56,124 56,132" />
+  </g>
+  <text x="127" y="100">r</text>
+ </g>
+ <g id="centre">
+  <circle class="eyes" cx="160" cy="128" r="3" />
+  <text x="155" y="120">M</text>
+ </g>
+ <g id="chord">
+ <line x1="95" y1="32" x2="225" y2="32" />
+ <text x="228" y="30">Sehne</text>
+ </g>
+ <g id="secant">
+ <line x1="50" y1="48" x2="270" y2="48" />
+ <text x="248" y="46">Sekante</text>
+ </g>
+ <g id="tangent">
+ <line x1="202" y1="252" x2="284" y2="170" />
+ <text x="242" y="224">Tangente</text>
+ </g>
+ <circle id="circle" cx="160" cy="128" r="116" />
+</svg>
