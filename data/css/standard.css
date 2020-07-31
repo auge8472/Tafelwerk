@@ -312,6 +312,11 @@ table.wholepage td, table.periods th, table.periods td {
 	padding: 0 0 0 1.5em;
 }
 
+.bildbeschreibung img[src$=".svg"] {
+	width: 100%;
+	height: auto;
+}
+
 /* tables on narrow screens */
 @media screen and (max-width: 30em) {
 	table {
