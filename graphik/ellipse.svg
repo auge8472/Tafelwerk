@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline, .arc { fill: none; stroke-width: 1px; stroke: #999; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  ]]>
+ </style>
+  <g id="dodecagon">
+   <g>
+    <!--circle class="helpline" cx="56" cy="128" r="104" /-->
+    <path class="arc" d="M 90 30 A 104 104 180 0 1 121 47" />
+    <path class="arc" d="M 124 207 A 104 104 180 0 1 90 226" />
+   </g>
+   <g>
+    <!--circle class="helpline" cx="264" cy="128" r="104" /-->
+    <path class="arc" d="M 225 224 A 104 104 180 0 1 198 208" />
+    <path class="arc" d="M 200 46 A 104 104 180 0 1 226 31" />
+   </g>
+   <g>
+    <!--circle class="helpline" cx="160" cy="24" r="104" /-->
+    <path class="arc" d="M 258 59 A 104 104 180 0 1 244 85" />
+    <path class="arc" d="M 75 84 A 104 104 180 0 1 62 59" />
+   </g>
+   <g>
+    <!--circle class="helpline" cx="160" cy="232" r="104" /-->
+    <path class="arc" d="M 63 194 A 104 104 180 0 1 76 171" />
+    <path class="arc" d="M 244 171 A 104 104 180 0 1 256 192" />
+   </g>
+   <g>
+    <line class="helpline" x1="56" y1="68" x2="264" y2="188" />
+    <line class="helpline" x1="100" y1="25" x2="220" y2="231" />
+    <line class="helpline" x1="220" y1="25" x2="100" y2="231" />
+    <line class="helpline" x1="264" y1="68" x2="56" y2="188" />
+   </g>
+  </g>
+  <g id="construction-lines">
+   <g id="horizontal">
+    <line class="helpline" x1="86" y1="73" x2="234" y2="73" />
+    <line class="helpline" x1="56" y1="96" x2="264" y2="96" />
+    <line class="helpline" x1="56" y1="160" x2="264" y2="160" />
+    <line class="helpline" x1="86" y1="183" x2="234" y2="183" />
+   </g>
+   <g id="vertical">
+    <line class="helpline" x1="70" y1="58" x2="70" y2="108" />
+    <line class="helpline" x1="70" y1="148" x2="70" y2="198" />
+    <line class="helpline" x1="108" y1="23" x2="108" y2="84" />
+    <line class="helpline" x1="108" y1="172" x2="108" y2="233" />
+    <line class="helpline" x1="212" y1="23" x2="212" y2="84" />
+    <line class="helpline" x1="212" y1="172" x2="212" y2="233" />
+    <line class="helpline" x1="250" y1="58" x2="250" y2="108" />
+    <line class="helpline" x1="250" y1="148" x2="250" y2="198" />
+   </g>
+  </g>
+ <g id="basis">
+  <line class="helpline" x1="24" y1="128" x2="296" y2="128" />
+  <line class="helpline" x1="160" y1="16" x2="160" y2="240" />
+  <circle class="eyes" cx="160" cy="128" r="3" />
+  <text x="142" y="124">M</text>
+  <circle class="constructor" cx="160" cy="128" r="104" />
+  <circle class="constructor" cx="160" cy="128" r="64" />
+ </g>
+ <ellipse class="result" cx="160" cy="128" rx="104" ry="64" />
+</svg>
