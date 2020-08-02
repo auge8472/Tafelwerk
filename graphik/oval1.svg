@@ -35,7 +35,7 @@
    <path class="arc" d="M 166 221 A 155 155 180 0 1 153 200" />
    <path class="arc" d="M 154 54 A 155 155 180 0 1 165 36" />
    <circle class="eyes" cx="160" cy="128" r="3" />
-   <text x="138" y="124">M<tspan>I</tspan></text>
+   <text x="138" y="124">M<tspan>1</tspan></text>
   </g>
   <g>
    <!--circle class="helpline" cx="30" cy="128" r="88" /-->
@@ -46,7 +46,7 @@
    <path class="arc" d="M 90 75 A 88 88 180 0 1 103 61" />
    <line class="helpline" x1="95" y1="62" x2="95" y2="194" />
    <circle class="eyes" cx="95" cy="128" r="3" />
-   <text x="70" y="124">M<tspan>II</tspan></text>
+   <text x="70" y="124">M<tspan>2</tspan></text>
   </g>
   <g>
    <!--circle class="helpline" cx="160" cy="128" r="88" /-->
@@ -57,7 +57,7 @@
    <path class="arc" d="M 220 75 A 88 88 180 0 1 233 61" />
    <line class="helpline" x1="225" y1="62" x2="225" y2="194" />
    <circle class="eyes" cx="225" cy="128" r="3" />
-   <text x="197" y="124">M<tspan>III</tspan></text>
+   <text x="197" y="124">M<tspan>3</tspan></text>
   </g>
   <g>
    <g>
@@ -66,9 +66,9 @@
     <circle class="eyes" cx="160" cy="15" r="3" />
     <text x="142" y="18">C</text>
     <circle class="eyes" cx="63" cy="184" r="3" />
-    <text x="60" y="205">C<tspan>I</tspan></text>
+    <text x="60" y="205">C<tspan>1</tspan></text>
     <circle class="eyes" cx="257" cy="184" r="3" />
-    <text x="242" y="205">C<tspan>II</tspan></text>
+    <text x="242" y="205">C<tspan>2</tspan></text>
     <g transform="rotate(-18, 160, 15)">
      <line class="radii" x1="160" y1="17" x2="160" y2="210" />
      <polygon class="arrowhead" points="160,210 164,198 156,198" />
@@ -81,9 +81,9 @@
     <circle class="eyes" cx="160" cy="241" r="3" />
     <text x="142" y="246">D</text>
     <circle class="eyes" cx="63" cy="72" r="3" />
-    <text x="60" y="62">D<tspan>I</tspan></text>
+    <text x="60" y="62">D<tspan>1</tspan></text>
     <circle class="eyes" cx="257" cy="72" r="3" />
-    <text x="242" y="62">D<tspan>II</tspan></text>
+    <text x="242" y="62">D<tspan>2</tspan></text>
     <g transform="rotate(-18, 160, 241)">
      <line class="radii" x1="160" y1="239" x2="160" y2="46" />
      <polygon class="arrowhead" points="160,45 164,57 156,57" />
