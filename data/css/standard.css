@@ -18,13 +18,13 @@ header {
 	margin: 0;
 	padding: 0;
 	background: #810;
+	color: #fff;
 }
 
 h1 {
 	margin: 0;
 	padding: 0.25em 0.5em;
 	padding: 0.25rem 0.5rem;
-	color: #fff;
 }
 
 h1 .main-title {
