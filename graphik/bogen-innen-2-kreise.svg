@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256">
+<!--svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 256"-->
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  tspan { font-size: 68%; }
+  ]]>
+ </style>
+ <g>
+  <g>
+   <line class="helpline" x1="40" y1="104" x2="250" y2="104" />
+  </g>
+  <g>
+   <circle class="eyes" cx="60" cy="104" r="3" />
+   <text x="40" y="98">M<tspan>1</tspan></text>
+   <circle class="helpline" cx="60" cy="104" r="50" />
+   <!--path class="helpline" d="M 26.5 67 A 50 50 180 1 0 109 94" /-->
+   <!--circle class="helpline" cx="60" cy="104" r="100" /-->
+   <path class="helpline" d="M 60 204 A 100 100 180 0 0 146.7 154" />
+   <text x="97" y="98">A</text>
+   <g>
+    <g transform="rotate(-40, 60, 104)">
+     <line class="radii" x1="57" y1="104" x2="13" y2="104" />
+     <polygon class="arrowhead" points="10,104 22,100 22,108" />
+    </g>
+    <text x="40" y="132">r<tspan>1</tspan></text>
+   </g>
+   <g>
+    <g transform="rotate(-115, 60, 104)">
+     <line class="radii" x1="57" y1="104" x2="-37" y2="104" />
+     <polygon class="arrowhead" points="-40,104 -28,100 -28,108" />
+    </g>
+    <text x="61" y="182">r<tspan>1</tspan>+r<tspan>3</tspan></text>
+   </g>
+  </g>
+  <g>
+   <circle class="eyes" cx="230" cy="104" r="3" />
+   <text x="210" y="98">M<tspan>2</tspan></text>
+   <circle class="helpline" cx="230" cy="104" r="80" />
+   <!--path class="helpline" d="M 151 92 A 80 80 180 1 0 300 65" /-->
+   <!--circle class="helpline" cx="230" cy="104" r="130" /-->
+   <path class="helpline" d="M 110 154 A 130 130 180 0 0 190 228" />
+   <text x="154" y="98">B</text>
+   <g>
+    <g transform="rotate(-140, 230, 104)">
+     <line class="radii" x1="227" y1="104" x2="153" y2="104" />
+     <polygon class="arrowhead" points="150,104 162,100 162,108" />
+    </g>
+    <text x="258" y="148">r<tspan>2</tspan></text>
+   </g>
+   <g>
+    <g transform="rotate(-50, 230, 104)">
+     <line class="radii" x1="227" y1="104" x2="103" y2="104" />
+     <polygon class="arrowhead" points="100,104 112,100 112,108" />
+    </g>
+    <text x="170" y="192">r<tspan>2</tspan>+r<tspan>3</tspan></text>
+   </g>
+  </g>
+ </g>
+ <g>
+  <circle class="eyes" cx="124.7" cy="180" r="3" />
+   <text x="132" y="186">M<tspan>3</tspan></text>
+  <!--circle class="helpline" cx="124.7" cy="180" r="50" /-->
+  <path class="helpline" d="M 173 167 A 50 50 180 0 0 76 169" />
+  <g>
+   <g transform="rotate(82, 124.7, 180)">
+    <line class="radii" x1="121.7" y1="180" x2="77.7" y2="180" />
+    <polygon class="arrowhead" points="74.7,180 86.7,176 86.7,184" />
+   </g>
+   <text x="126" y="156">r<tspan>3</tspan></text>
+  </g>
+ </g>
+ <g>
+  <line class="helpline" x1="55" y1="98" x2="130" y2="186" />
+   <text x="88" y="134">C</text>
+  <line class="helpline" x1="238.5" y1="98" x2="116" y2="186" />
+   <text x="164" y="142">D</text>
+ </g>
+ <g id="figure">
+  <path class="result" d="M 24 69 A 50 50 180 0 0 92 142 A 50 50 180 0 1 165.5 150.3 A 80 80 180 0 0 302 68" />
+ </g>
+</svg>
