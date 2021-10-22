@@ -9,7 +9,7 @@
   .constructor { fill: none; stroke-width: 1px; stroke: #222; }
   .result { fill: none; stroke-width: 3px; stroke: #222; }
   text { color: #222; font-size: 14px; }
-  tspan { font-size: 68%; }
+  tspan { font-size: 60%; }
   ]]>
  </style>
  <g id="basis">
@@ -28,93 +28,87 @@
  </g>
  <g id="helping-contructions">
   <g>
-   <!--circle class="helpline" cx="30" cy="128" r="155" /-->
    <path class="arc" d="M 153 34 A 155 155 180 0 1 167 56" />
    <path class="arc" d="M 166 202 A 155 155 180 0 1 153 222" />
-   <!--circle class="helpline" cx="290" cy="128" r="155" /-->
    <path class="arc" d="M 166 221 A 155 155 180 0 1 153 200" />
    <path class="arc" d="M 154 54 A 155 155 180 0 1 165 36" />
    <circle class="eyes" cx="160" cy="128" r="3" />
-   <text x="138" y="124">M<tspan>1</tspan></text>
+   <text x="138" y="124" dy="0, 2px">M<tspan>1</tspan></text>
   </g>
   <g>
-   <!--circle class="helpline" cx="30" cy="128" r="88" /-->
    <path class="arc" d="M 86 60 A 88 88 180 0 1 101 76" />
    <path class="arc" d="M 100 181 A 88 88 180 0 1 87 195" />
-   <!--circle class="helpline" cx="160" cy="128" r="88" /-->
    <path class="arc" d="M 103 195 A 88 88 180 0 1 87 177" />
    <path class="arc" d="M 90 75 A 88 88 180 0 1 103 61" />
    <line class="helpline" x1="95" y1="62" x2="95" y2="194" />
    <circle class="eyes" cx="95" cy="128" r="3" />
-   <text x="70" y="124">M<tspan>2</tspan></text>
+   <text x="70" y="124" dy="0, 2px">M<tspan>2</tspan></text>
   </g>
   <g>
-   <!--circle class="helpline" cx="160" cy="128" r="88" /-->
    <path class="arc" d="M 216 60 A 88 88 180 0 1 231 76" />
    <path class="arc" d="M 230 181 A 88 88 180 0 1 217 195" />
-   <!--circle class="helpline" cx="290" cy="128" r="88" /-->
    <path class="arc" d="M 233 195 A 88 88 180 0 1 217 177" />
    <path class="arc" d="M 220 75 A 88 88 180 0 1 233 61" />
    <line class="helpline" x1="225" y1="62" x2="225" y2="194" />
    <circle class="eyes" cx="225" cy="128" r="3" />
-   <text x="197" y="124">M<tspan>3</tspan></text>
+   <text x="197" y="124" dy="0, 2px">M<tspan>3</tspan></text>
   </g>
   <g>
    <g>
     <line class="helpline" x1="168" y1="2" x2="51" y2="204" />
     <line class="helpline" x1="152" y1="2" x2="269" y2="204" />
     <circle class="eyes" cx="160" cy="15" r="3" />
-    <text x="142" y="18">C</text>
+    <text x="142" y="19">C</text>
     <circle class="eyes" cx="63" cy="184" r="3" />
-    <text x="60" y="205">C<tspan>1</tspan></text>
+    <text x="60" y="204" dy="0, 2px">C<tspan>1</tspan></text>
     <circle class="eyes" cx="257" cy="184" r="3" />
-    <text x="242" y="205">C<tspan>2</tspan></text>
+    <text x="244" y="204" dy="0, 2px">C<tspan>2</tspan></text>
     <g transform="rotate(-18, 160, 15)">
-     <line class="radii" x1="160" y1="17" x2="160" y2="210" />
+     <line class="radii" x1="160" y1="18" x2="160" y2="207" />
      <polygon class="arrowhead" points="160,210 164,198 156,198" />
     </g>
-    <text x="191" y="158">r<tspan>2</tspan></text>
+    <text x="191" y="158" dy="0, 2px">r<tspan>2</tspan></text>
    </g>
    <g>
     <line class="helpline" x1="168" y1="254" x2="51" y2="52" />
     <line class="helpline" x1="152" y1="254" x2="269" y2="52" />
     <circle class="eyes" cx="160" cy="241" r="3" />
-    <text x="142" y="246">D</text>
+    <text x="142" y="245">D</text>
     <circle class="eyes" cx="63" cy="72" r="3" />
-    <text x="60" y="62">D<tspan>1</tspan></text>
+    <text x="60" y="60" dy="0, 2px">D<tspan>1</tspan></text>
     <circle class="eyes" cx="257" cy="72" r="3" />
-    <text x="242" y="62">D<tspan>2</tspan></text>
+    <text x="244" y="60" dy="0, 2px">D<tspan>2</tspan></text>
     <g transform="rotate(-18, 160, 241)">
-     <line class="radii" x1="160" y1="239" x2="160" y2="46" />
+     <line class="radii" x1="160" y1="238" x2="160" y2="49" />
      <polygon class="arrowhead" points="160,45 164,57 156,57" />
     </g>
-    <text x="120" y="108">r<tspan>2</tspan></text>
+    <text x="120" y="108" dy="0, 2px">r<tspan>2</tspan></text>
    </g>
   </g>
   <g>
    <g>
     <circle class="constructor" cx="95" cy="128" r="65" />
     <g transform="rotate(-18, 95, 128)">
-     <line class="radii" x1="93" y1="128" x2="30" y2="128" />
+     <line class="radii" x1="92" y1="128" x2="33" y2="128" />
      <polygon class="arrowhead" points="30,128 42,124 42,132" />
     </g>
-    <text x="48" y="138">r<tspan>1</tspan></text>
+    <text x="48" y="138" dy="0, 2px">r<tspan>1</tspan></text>
    </g>
    <g>
     <circle class="constructor" cx="160" cy="128" r="65" />
     <g transform="rotate(-18, 160, 128)">
-     <line class="radii" x1="158" y1="128" x2="95" y2="128" />
+     <line class="radii" x1="157" y1="128" x2="98" y2="128" />
      <polygon class="arrowhead" points="95,128 107,124 107,132" />
     </g>
-    <text x="113" y="138">r<tspan>1</tspan></text>
+    <text x="113" y="138" dy="0, 2px">r<tspan>1</tspan></text>
    </g>
    <g>
     <circle class="constructor" cx="225" cy="128" r="65" />
     <g transform="rotate(-18, 225, 128)">
-     <line class="radii" x1="223" y1="128" x2="160" y2="128" />
+     <line class="radii" x1="222" y1="128" x2="163" y2="128" />
      <polygon class="arrowhead" points="160,128 172,124 172,132" />
     </g>
-    <text x="178" y="138">r<tspan>1</tspan></text>
+    <text x="178" y="138" dy="0, 2px">r<tspan>1</tspan></text>
    </g>
   </g>
  </g>
