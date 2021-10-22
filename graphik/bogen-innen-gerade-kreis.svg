@@ -9,7 +9,7 @@
   .constructor { fill: none; stroke-width: 1px; stroke: #222; }
   .result { fill: none; stroke-width: 3px; stroke: #222; }
   text { color: #222; font-size: 14px; }
-  tspan { font-size: 68%; }
+  tspan { font-size: 60%; }
   ]]>
  </style>
  <g>
@@ -17,16 +17,16 @@
    <line class="helpline" x1="12" y1="144" x2="154" y2="144" />
    <g>
     <g transform="rotate(90, 36, 224)">
-     <line class="radii" x1="36" y1="224" x2="-44" y2="224" />
+     <line class="radii" x1="33" y1="224" x2="-41" y2="224" />
      <polygon class="arrowhead" points="-44,224 -32,220 -32,228" />
      <polygon class="arrowhead" points="36,224 24,220 24,228" />
     </g>
-    <text x="22" y="172">r<tspan>2</tspan></text>
+    <text x="22" y="172" dy="0, 2px">r<tspan>2</tspan></text>
    </g>
   </g>
   <g>
    <circle class="eyes" cx="130" cy="144" r="3" />
-   <text x="110" y="160">M<tspan>2</tspan></text>
+   <text x="110" y="160" dy="0, 2px">M<tspan>2</tspan></text>
    <!--circle class="helpline" cx="130" cy="144" r="80" /-->
    <path class="helpline" d="M 88 212 A 80 80 180 0 0 183 84" />
   </g>
@@ -35,43 +35,41 @@
   </g>
   <g>
    <g transform="rotate(-144, 130, 144)">
-    <line class="radii" x1="128" y1="144" x2="50" y2="144" />
+    <line class="radii" x1="127" y1="144" x2="53" y2="144" />
     <polygon class="arrowhead" points="50,144 62,140 62,148" />
    </g>
-   <text x="175" y="172">r<tspan>2</tspan></text>
+   <text x="175" y="172" dy="0, 2px">r<tspan>2</tspan></text>
   </g>
   <g>
    <line class="helpline" x1="130" y1="136" x2="130" y2="232" />
-   <text x="134" y="240">BP<tspan>1</tspan></text>
+   <text x="134" y="240" dy="0, 0, 2px">BP<tspan>1</tspan></text>
   </g>
  </g>
  <g>
   <circle class="eyes" cx="300" cy="38" r="3" />
-  <text x="282" y="34">M<tspan>1</tspan></text>
+  <text x="280" y="32" dy="0, 2px">M<tspan>1</tspan></text>
   <!--circle class="helpline" cx="300" cy="38" r="120" /-->
-  <path class="helpline" d="M 185 4 A 120 120 180 0 0 217 125" />
+  <path class="constructor" d="M 184.8 4 A 120 120 180 0 0 300 158" />
   <!--circle class="helpline" cx="300" cy="38" r="200" /-->
   <path class="helpline" d="M 100 41 A 200 200 180 0 0 139 157" />
   <g>
    <g transform="rotate(4, 300, 38)">
-    <line class="radii" x1="298" y1="38" x2="180" y2="38" />
+    <line class="radii" x1="297" y1="38" x2="183" y2="38" />
     <polygon class="arrowhead" points="180,38 192,34 192,42" />
    </g>
-   <text x="204" y="26">r<tspan>1</tspan></text>
+   <text x="204" y="26" dy="0, 2px">r<tspan>1</tspan></text>
   </g>
   <g>
    <g transform="rotate(-6, 300, 38)">
-    <line class="radii" x1="298" y1="38" x2="100" y2="38" />
+    <line class="radii" x1="297" y1="38" x2="103" y2="38" />
     <polygon class="arrowhead" points="100,38 112,34 112,42" />
    </g>
-    <text x="122" y="48">r<tspan>1</tspan> + r<tspan>2</tspan></text>
+    <text x="122" y="48" dy="0, 2px, -2px, 0, 0, 0, 2px">r<tspan>1</tspan> + r<tspan>2</tspan></text>
   </g>
-  <text x="208" y="108">BP<tspan>2</tspan></text>
+  <text x="208" y="108" dy="0, 0, 2px">BP<tspan>2</tspan></text>
  </g>
  <g id="figure">
   <line class="constructor" x1="6" y1="224" x2="188" y2="224" />
-  <line class="result" x1="10" y1="224" x2="130" y2="224" />
-  <path class="result" d="M 130 224 A 80 80 180 0 0 198 102" />
-  <path class="result" d="M 184 8 A 120 120 180 0 0 198 102" />
+  <path class="result" d="M 10 224, 130 224 A 80 80 180 0 0 198 102 A 120 120 180 0 1 184 8" />
  </g>
 </svg>
