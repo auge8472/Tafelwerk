@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  tspan { font-size: 60%; }
+  ]]>
+ </style>
+ <g>
+  <g>
+   <line class="constructor" x1="20" y1="128" x2="300" y2="128" />
+  </g>
+  <g>
+   <text x="28" y="122">A</text>
+   <path class="helpline" d="M 135 12 A 150 150 180 0 1 179 71.4" />
+   <path class="helpline" d="M 137.6 242 A 150 150 180 0 0 182 176.4" />
+   <text x="142" y="44">C</text>
+   <g>
+    <g transform="rotate(134, 40, 128)">
+     <line class="radii" x1="40" y1="128" x2="-107" y2="128" />
+     <polygon class="arrowhead" points="-110,128 -98,124 -98,132" />
+    </g>
+    <text x="104" y="50">r</text>
+   </g>
+  </g>
+  <g>
+   <text x="283" y="122">B</text>
+   <path class="helpline" d="M 185 12 A 150 150 180 0 0 140 74" />
+   <path class="helpline" d="M 182.4 242 A 150 150 180 0 1 140 182" />
+   <text x="142" y="222">D</text>
+   <g>
+    <g transform="rotate(46, 280, 128)">
+     <line class="radii" x1="280" y1="128" x2="133" y2="128" />
+     <polygon class="arrowhead" points="130,128 142,124 142,132" />
+    </g>
+    <text x="210" y="50">r</text>
+   </g>
+  </g>
+ <g>
+  <line class="helpline" x1="160" y1="24" x2="160" y2="232" />
+  <text x="142" y="122">E</text>
+ </g>
+ </g>
+ <g id="figure">
+  <line class="result" x1="40" y1="128" x2="280" y2="128" />
+  <line class="result" x1="40" y1="122" x2="40" y2="134"/>
+  <line class="result" x1="160" y1="122" x2="160" y2="134"/>
+  <line class="result" x1="280" y1="122" x2="280" y2="134"/>
+ </g>
+</svg>
