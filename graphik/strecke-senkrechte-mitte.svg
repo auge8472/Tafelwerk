@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  tspan { font-size: 60%; }
+  ]]>
+ </style>
+ <g>
+  <g>
+   <line class="helpline" x1="20" y1="220" x2="300" y2="220" />
+  </g>
+  <g>
+   <g>
+    <text x="148" y="240">A</text>
+    <!--circle class="helpline" cx="160" cy="220" r="100" /-->
+    <path class="helpline" d="M 60.5 230 A 100 100 180 1 1 259.5 230" />
+    <g>
+     <g transform="rotate(48, 160, 220)">
+      <line class="radii" x1="160" y1="220" x2="63" y2="220" />
+      <polygon class="arrowhead" points="60,220 72,216 72,224" />
+     </g>
+     <text x="100" y="178" dy="0, 2">r<tspan>1</tspan></text>
+    </g>
+   </g>
+   <g>
+    <text x="48" y="240">B</text>
+    <!--circle class="helpline" cx="60" cy="220" r="180" /-->
+    <path class="helpline" d="M 34 41.9 A 180 180 180 0 1 176 82.3" />
+    <g>
+     <g transform="rotate(86, 60, 220)">
+      <line class="radii" x1="60" y1="220" x2="-117" y2="220" />
+      <polygon class="arrowhead" points="-120,220 -108,216 -108,224" />
+     </g>
+     <text x="36" y="72" dy="0, 2">r<tspan>2</tspan></text>
+    </g>
+   </g>
+   <g>
+    <text x="248" y="240">C</text>
+    <!--circle class="helpline" cx="260" cy="220" r="180" /-->
+    <path class="helpline" d="M 144 82.3 A 180 180 180 0 1 293 43" />
+    <g>
+     <g transform="rotate(94, 260, 220)">
+      <line class="radii" x1="260" y1="220" x2="83" y2="220" />
+      <polygon class="arrowhead" points="80,220 92,216 92,224" />
+     </g>
+     <text x="256" y="72" dy="0, 2">r<tspan>2</tspan></text>
+    </g>
+   </g>
+   <g>
+    <text x="147" y="58">D</text>
+    <line class="helpline" x1="160" y1="20" x2="160" y2="220" />
+   </g>
+  </g>
+ </g>
+ <g id="figure">
+  <line class="result" x1="26" y1="220" x2="294" y2="220" />
+  <line class="result" x1="160" y1="214" x2="160" y2="226"/>
+  <line class="result" x1="60" y1="214" x2="60" y2="226"/>
+  <line class="result" x1="260" y1="214" x2="260" y2="226"/>
+  <line class="result" x1="160" y1="60" x2="160" y2="220"/>
+ </g>
+</svg>
