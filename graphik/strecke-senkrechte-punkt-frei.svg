@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  tspan { font-size: 60%; }
+  ]]>
+ </style>
+ <g>
+  <g>
+   <line class="helpline" x1="20" y1="150" x2="300" y2="150" />
+  </g>
+  <g>
+   <g>
+    <text x="147" y="22">A</text>
+    <!--circle class="helpline" cx="160" cy="30" r="160" /-->
+    <path class="helpline" d="M 35 130 A 160 160 180 0 0 285 130" />
+    <g>
+     <g transform="rotate(222, 160, 30)">
+      <line class="radii" x1="160" y1="30" x2="3" y2="30" />
+      <polygon class="arrowhead" points="0,30 12,26 12,34" />
+     </g>
+     <text x="258" y="108" dy="0, 2">r<tspan>1</tspan></text>
+    </g>
+   </g>
+   <g>
+    <text x="44" y="166">B</text>
+    <line class="helpline" x1="54" y1="146" x2="54" y2="154" />
+    <!--circle class="helpline" cx="54" cy="150" r="130" /-->
+    <path class="helpline" d="M 177 192 A 130 130 180 0 1 141.7 246" />
+    <g>
+     <g transform="rotate(224, 54, 150)">
+      <line class="radii" x1="54" y1="150" x2="-73" y2="150" />
+      <polygon class="arrowhead" points="-76,150 -64,146 -64,154" />
+     </g>
+     <text x="106" y="222" dy="0, 2">r<tspan>2</tspan></text>
+    </g>
+   </g>
+   <g>
+    <text x="266" y="166">C</text>
+    <line class="helpline" x1="266" y1="146" x2="266" y2="154" />
+    <!--circle class="helpline" cx="266" cy="150" r="130" /-->
+    <path class="helpline" d="M 143 192 A 130 130 180 0 0 178.3 246" />
+    <g>
+     <g transform="rotate(-44, 266, 150)">
+      <line class="radii" x1="266" y1="150" x2="139" y2="150" />
+      <polygon class="arrowhead" points="136,150 148,146 148,154" />
+     </g>
+     <text x="207" y="222" dy="0, 2">r<tspan>2</tspan></text>
+    </g>
+   </g>
+   <g>
+    <text x="147" y="230">D</text>
+    <line class="helpline" x1="160" y1="20" x2="160" y2="236" />
+   </g>
+  </g>
+ </g>
+ <g id="figure">
+  <line class="result" x1="26" y1="150" x2="294" y2="150" />
+  <g transform="rotate(45, 160, 30)">
+   <line class="result" x1="160" y1="24" x2="160" y2="36" />
+   <line class="result" x1="154" y1="30" x2="166" y2="30" />
+  </g>
+  <line class="result" x1="160" y1="30" x2="160" y2="150"/>
+ </g>
+</svg>
