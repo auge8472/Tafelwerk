@@ -7,6 +7,7 @@
   .radii { fill: none; stroke-width: 1px; stroke: #555; }
   .arrowhead { fill: #555; stroke: none; }
   .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .constructor-filled { fill: #222; stroke: none; }
   .result { fill: none; stroke-width: 3px; stroke: #222; }
   text { color: #222; font-size: 14px; }
   tspan { font-size: 60%; }
@@ -71,6 +72,11 @@
     <line class="helpline" x1="200" y1="20" x2="200" y2="220" />
     <text x="203" y="39">E</text>
    </g>
+  </g>
+  <g>
+   <!--circle class="helpline" cx="200" cy="220" r="20" /-->
+    <path class="constructor" d="M 180 220 A 20 20 180 0 1 200 200" />
+   <circle class="constructor-filled" cx="192" cy="212" r="1.75" />
   </g>
  </g>
  <g id="figure">

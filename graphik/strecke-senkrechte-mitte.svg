@@ -7,6 +7,7 @@
   .radii { fill: none; stroke-width: 1px; stroke: #555; }
   .arrowhead { fill: #555; stroke: none; }
   .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .constructor-filled { fill: #222; stroke: none; }
   .result { fill: none; stroke-width: 3px; stroke: #222; }
   text { color: #222; font-size: 14px; }
   tspan { font-size: 60%; }
@@ -22,11 +23,11 @@
     <!--circle class="helpline" cx="160" cy="220" r="100" /-->
     <path class="helpline" d="M 60.5 230 A 100 100 180 1 1 259.5 230" />
     <g>
-     <g transform="rotate(48, 160, 220)">
+     <g transform="rotate(138, 160, 220)">
       <line class="radii" x1="160" y1="220" x2="63" y2="220" />
       <polygon class="arrowhead" points="60,220 72,216 72,224" />
      </g>
-     <text x="100" y="178" dy="0, 2">r<tspan>1</tspan></text>
+     <text x="190" y="178" dy="0, 2">r<tspan>1</tspan></text>
     </g>
    </g>
    <g>
@@ -57,6 +58,11 @@
     <text x="147" y="58">D</text>
     <line class="helpline" x1="160" y1="20" x2="160" y2="220" />
    </g>
+  </g>
+  <g>
+   <!--circle class="helpline" cx="160" cy="220" r="20" /-->
+    <path class="constructor" d="M 140 220 A 20 20 180 0 1 160 200" />
+   <circle class="constructor-filled" cx="152" cy="212" r="1.75" />
   </g>
  </g>
  <g id="figure">
