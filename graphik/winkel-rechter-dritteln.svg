@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .constructor-filled { fill: #222; stroke: none; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  ]]>
+ </style>
+ <g>
+  <g>
+   <line class="helpline" x1="60" y1="220" x2="270" y2="220" />
+   <line class="helpline" x1="60" y1="220" x2="60" y2="10" />
+  </g>
+  <g>
+   <g>
+    <text x="46" y="240">A</text>
+    <!--circle class="helpline" cx="60" cy="220" r="160" /-->
+    <path class="helpline" d="M 40 61.2 A 160 160 180 0 1 218.8 240" />
+    <g>
+     <g transform="rotate(84, 60, 220)">
+      <line class="radii" x1="60" y1="220" x2="-97" y2="220" />
+      <polygon class="arrowhead" points="-100,220 -88,216 -88,224" />
+     </g>
+     <text x="36" y="98">r</text>
+    </g>
+   </g>
+   <g>
+    <text x="46" y="54">B</text>
+    <!--circle class="helpline" cx="60" cy="60" r="160" /-->
+    <path class="helpline" d="M 218.3 36 A 160 160 180 0 1 176.3 170" />
+    <g>
+     <g transform="rotate(174, 60, 60)">
+      <line class="radii" x1="60" y1="60" x2="-97" y2="60" />
+      <polygon class="arrowhead" points="-100,60 -88,56 -88,64" />
+     </g>
+     <text x="182" y="42">r</text>
+    </g>
+   </g>
+   <g>
+    <text x="224" y="240">C</text>
+    <!--circle class="helpline" cx="220" cy="220" r="160" /-->
+    <path class="helpline" d="M 112 102 A 160 160 180 0 1 246 62.1" />
+    <g>
+     <g transform="rotate(96, 220, 220)">
+      <line class="radii" x1="220" y1="220" x2="63" y2="220" />
+      <polygon class="arrowhead" points="60,220 72,216 72,224" />
+     </g>
+     <text x="238" y="98">r</text>
+    </g>
+   </g>
+   <g>
+    <text x="140" y="100">D</text>
+    <text x="190" y="160">E</text>
+    <text x="224" y="54">F</text>
+   </g>
+  </g>
+  <g>
+   <!--circle class="helpline" cx="60" cy="220" r="20" /-->
+    <path class="constructor" d="M 60 200 A 20 20 180 0 1 80 220" />
+   <circle class="constructor-filled" cx="68" cy="212" r="1.75" />
+  </g>
+ </g>
+ <g id="figure">
+  <path class="result" d="M 60 20, 60 220, 260 220" />
+  <g transform="rotate(30, 60, 220)">
+   <line class="constructor" x1="60" y1="190" x2="60" y2="50"/>
+  </g>
+  <g transform="rotate(60, 60, 220)">
+   <line class="constructor" x1="60" y1="190" x2="60" y2="50"/>
+  </g>
+ </g>
+</svg>
