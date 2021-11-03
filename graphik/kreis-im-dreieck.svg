@@ -8,34 +8,28 @@
   .bows { fill: none; stroke-width: 1px; stroke: #ddd; }
   .arc, line { fill: none; stroke-width: 1px; stroke: #999; }
   text { color: #222; font-size: 14px; }
-  #circle-points-1 .circle-points { font-size: 12px; }
-  #circle-points-1 .circle-points tspan { font-size: 9px; }
+  #circle-points-1 text { font-size: 12px; }
+  tspan { font-size: 60%; }
   ]]>
  </style>
  <g id="circle-points-1">
   <g id="angle-a">
    <text x="91" y="21">A</text>
    <path class="arc" d="M 60 78 A 64 64 180 0 0 153 54" />
-   <circle class="eyes" cx="72" cy="84" r="3" />
-   <text x="62" y="77" class="circle-points">A<tspan>I</tspan></text>
-   <circle class="eyes" cx="142" cy="69" r="3" />
-   <text x="140" y="62" class="circle-points">A<tspan>II</tspan></text>
+   <text x="60" y="75" class="circle-points" dy="0, 2">A<tspan>I</tspan></text>
+   <text x="148" y="71" class="circle-points" dy="0, 2">A<tspan>II</tspan></text>
   </g>
   <g id="angle-b">
    <text x="309" y="226">B</text>
    <path class="arc" d="M 268 167 A 64 64 180 0 0 242 231" />
-   <circle class="eyes" cx="241" cy="220" r="3" />
-   <text x="255" y="168" class="circle-points">B<tspan>I</tspan></text>
-   <circle class="eyes" cx="257" cy="176" r="3" />
-   <text x="228" y="236" class="circle-points">B<tspan>II</tspan></text>
+   <text x="265" y="181" class="circle-points" dy="0, 2">B<tspan>I</tspan></text>
+   <text x="245" y="235" class="circle-points" dy="0, 2">B<tspan>II</tspan></text>
   </g>
   <g id="angle-c">
    <text x="2" y="226">C</text>
    <path class="arc" d="M 26 157 A 64 64 180 0 1 79 231" />
-   <circle class="eyes" cx="40" cy="161" r="3" />
-   <text x="84" y="236" class="circle-points">C<tspan>I</tspan></text>
-   <circle class="eyes" cx="80" cy="220" r="3" />
-   <text x="30" y="153" class="circle-points">C<tspan>II</tspan></text>
+   <text x="83" y="235" class="circle-points" dy="0, 2">C<tspan>I</tspan></text>
+   <text x="24" y="153" class="circle-points" dy="0, 2">C<tspan>II</tspan></text>
   </g>
  </g>
  <g>

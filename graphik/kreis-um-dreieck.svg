@@ -10,26 +10,20 @@
   ]]>
  </style>
  <g>
-  <!--circle class="bows" cx="69" cy="124" r="108" /-->
    <path class="arc" d="M 72 16 A 108 108 180 0 1 117 27" />
    <path class="arc" d="M 175 146 A 108 108 180 0 1 159 184" />
-  <!--circle class="bows" cx="195" cy="61" r="108" /-->
    <path class="arc" d="M 90 35 A 108 108 180 0 1 104 3" />
    <path class="arc" d="M 188 169 A 108 108 180 0 1 150 159" />
  </g>
  <g>
-  <!--circle class="bows" cx="195" cy="61" r="82" /-->
    <path class="arc" d="M 277 65 A 82 82 180 0 1 268 98" />
    <path class="arc" d="M 191 143 A 82 82 180 0 1 156 133" />
-  <!--circle class="bows" cx="255" cy="160" r="82" /-->
    <path class="arc" d="M 256 78 A 82 82 180 0 1 290 86" />
    <path class="arc" d="M 173 156 A 82 82 180 0 1 183 121" />
  </g>
  <g>
-  <!--circle class="bows" cx="69" cy="124" r="128" /-->
    <path class="arc" d="M 169 44 A 128 128 180 0 1 187 74" />
    <path class="arc" d="M 159 215 A 128 128 180 0 1 131 236" />
-  <!--circle class="bows" cx="254" cy="160" r="128" /-->
    <path class="arc" d="M 154 240 A 128 128 180 0 1 137 212" />
    <path class="arc" d="M 166 67 A 128 128 180 0 1 192 48" />
  </g>
