@@ -56,7 +56,7 @@
    </g>
   </g>
  <g id="basis">
-  <line class="helpline" x1="24" y1="128" x2="296" y2="128" />
+  <line class="helpline" x1="24" y1="128" x2="296" y2="128" stroke-dasharray="5 2 1 2" stroke-dashoffset="1" />
   <line class="helpline" x1="160" y1="16" x2="160" y2="240" />
   <circle class="eyes" cx="160" cy="128" r="3" />
   <text x="142" y="124">M</text>

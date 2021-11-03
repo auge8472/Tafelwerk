@@ -14,7 +14,7 @@
  </style>
  <g>
   <g>
-   <line class="constructor" x1="20" y1="128" x2="300" y2="128" />
+   <line class="helpline" x1="20" y1="128" x2="300" y2="128" stroke-dasharray="5 2 1 2" />
   </g>
   <g>
    <text x="28" y="122">A</text>

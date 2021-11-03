@@ -15,8 +15,8 @@
  </style>
  <g>
   <g>
-   <line class="helpline" x1="20" y1="200" x2="140" y2="200" />
-   <line transform="rotate(20, 20, 200)" class="helpline" x1="20" y1="200" x2="20" y2="80" />
+   <line class="helpline" x1="20" y1="200" x2="140" y2="200" stroke-dasharray="5 2 1 2" />
+   <line transform="rotate(20, 20, 200)" class="helpline" x1="20" y1="200" x2="20" y2="80" stroke-dasharray="5 2 1 2" />
    <g>
     <text x="8" y="220">A</text>
     <!--circle class="helpline" cx="20" cy="200" r="100" /-->
@@ -46,8 +46,8 @@
    </g>
   </g>
   <g>
-   <line class="helpline" x1="180" y1="200" x2="300" y2="200" />
-   <line transform="rotate(20, 180, 200)" class="helpline" x1="180" y1="200" x2="180" y2="80" />
+   <line class="helpline" x1="180" y1="200" x2="300" y2="200" stroke-dasharray="5 2 1 2" />
+   <line transform="rotate(20, 180, 200)" class="helpline" x1="180" y1="200" x2="180" y2="80" stroke-dasharray="5 2 1 2" />
    <g>
     <text x="168" y="220" dy="0, -4">A<tspan>I</tspan></text>
     <!--circle class="helpline" cx="180" cy="200" r="100" /-->

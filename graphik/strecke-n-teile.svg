@@ -46,7 +46,7 @@
   </g>
  </g>
  <g>
-  <line class="helpline" x1="20" y1="220" x2="300" y2="220" />
+  <line class="helpline" x1="20" y1="220" x2="300" y2="220" stroke-dasharray="5 2 1 2" />
  </g>
  <g id="figure">
  <g>

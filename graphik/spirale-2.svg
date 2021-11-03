@@ -15,7 +15,7 @@
  <text x="154" y="148">A</text>
  <circle class="eyes" cx="184" cy="128" r="3" />
  <text x="178" y="148">B</text>
- <line id="baseline" x1="4" y1="128" x2="316" y2="128" />
+ <line id="baseline" x1="4" y1="128" x2="316" y2="128" stroke-dasharray="5 2 1 2" stroke-dashoffset="1" />
  <g id="arc-5">
   <path class="constructor" d="M 280 128 A 120 120 180 1 0 40.15 134" />
   <g transform="rotate(60, 160, 128)">

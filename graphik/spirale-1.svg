@@ -10,10 +10,10 @@
   .result { fill: none; stroke-width: 3px; stroke: #222; }
   ]]>
  </style>
- <line class="baselines" x1="4" y1="128" x2="316" y2="128" />
- <line class="baselines" x1="4" y1="152" x2="316" y2="152" />
- <line class="baselines" x1="160" y1="4" x2="160" y2="252" />
- <line class="baselines" x1="184" y1="4" x2="184" y2="252" />
+ <line class="baselines" x1="4" y1="128" x2="316" y2="128" stroke-dasharray="5 2 1 2" stroke-dashoffset="1" />
+ <line class="baselines" x1="4" y1="152" x2="316" y2="152" stroke-dasharray="5 2 1 2" stroke-dashoffset="1" />
+ <line class="baselines" x1="160" y1="4" x2="160" y2="252" stroke-dasharray="5 2 1 2" stroke-dashoffset="-1" />
+ <line class="baselines" x1="184" y1="4" x2="184" y2="252" stroke-dasharray="5 2 1 2" stroke-dashoffset="-1" />
  <circle class="eyes" cx="160" cy="128" r="3" />
  <circle class="eyes" cx="184" cy="128" r="3" />
  <circle class="eyes" cx="160" cy="152" r="3" />

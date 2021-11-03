@@ -15,8 +15,8 @@
  </style>
  <g>
   <g>
-   <line class="helpline" x1="60" y1="220" x2="270" y2="220" />
-   <line transform="rotate(20, 60, 220)" class="helpline" x1="60" y1="220" x2="60" y2="10" />
+   <line class="helpline" x1="60" y1="220" x2="270" y2="220" stroke-dasharray="5 2 1 2" />
+   <line transform="rotate(20, 60, 220)" class="helpline" x1="60" y1="220" x2="60" y2="10" stroke-dasharray="5 2 1 2" />
   </g>
   <g>
    <g>

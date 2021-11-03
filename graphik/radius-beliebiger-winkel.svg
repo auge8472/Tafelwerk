@@ -13,17 +13,13 @@
  </style>
  <g>
   <g>
-   <!--circle class="helpline" cx="96" cy="194" r="60" /-->
    <path class="helpline" d="M 100 254 A 60 60 180 0 0 126 246" />
    <path class="helpline" d="M 124 141 A 60 60 180 0 0 100 134" />
-   <!--circle class="helpline" cx="136" cy="194" r="60" /-->
    <path class="helpline" d="M 124 135 A 60 60 180 0 0 106 142" />
    <path class="helpline" d="M 105 245 A 60 60 180 0 0 124 253" />
    <line class="helpline" x1="116" y1="108" x2="116" y2="254" />
-   <!--circle class="helpline" cx="226" cy="194" r="60" /-->
    <path class="helpline" d="M 230 254 A 60 60 180 0 0 256 246" />
    <path class="helpline" d="M 254 141 A 60 60 180 0 0 230 134" />
-   <!--circle class="helpline" cx="266" cy="194" r="60" /-->
    <path class="helpline" d="M 254 135 A 60 60 180 0 0 236 142" />
    <path class="helpline" d="M 235 245 A 60 60 180 0 0 254 253" />
    <line class="helpline" x1="246" y1="108" x2="246" y2="254" />
@@ -32,27 +28,21 @@
    <!--circle class="helpline" cx="86" cy="194" r="60" /-->
    <path class="helpline" d="M 90 254 A 60 60 180 0 0 116 246" />
    <path class="helpline" d="M 114 141 A 60 60 180 0 0 90 134" />
-   <!--circle class="helpline" cx="126" cy="194" r="60" /-->
    <path class="helpline" d="M 114 135 A 60 60 180 0 0 96 142" />
    <path class="helpline" d="M 95 245 A 60 60 180 0 0 114 253" />
    <line class="helpline" x1="106" y1="128" x2="106" y2="270" />
-   <!--circle class="helpline" cx="176" cy="194" r="60" /-->
    <path class="helpline" d="M 180 254 A 60 60 180 0 0 206 246" />
    <path class="helpline" d="M 204 141 A 60 60 180 0 0 180 134" />
-   <!--circle class="helpline" cx="196" cy="194" r="60" /-->
    <path class="helpline" d="M 204 135 A 60 60 180 0 0 186 142" />
    <path class="helpline" d="M 185 245 A 60 60 180 0 0 204 253" />
    <line class="helpline" x1="196" y1="128" x2="196" y2="270" />
-   <!--line class="helpline" x1="153" y1="128" x2="153" y2="270" /-->
   </g>
  </g>
  <g>
   <g>
-   <!--circle class="helpline" cx="116" cy="194" r="70" /-->
    <path class="helpline" d="M 129 125 A 70 70 180 0 0 99 126" />
-   <!--circle class="helpline" cx="246" cy="194" r="70" /-->
    <path class="helpline" d="M 259 125 A 70 70 180 0 0 229 126" />
-   <line class="helpline" x1="88" y1="124" x2="316" y2="124" />
+   <line class="helpline" x1="88" y1="124" x2="316" y2="124" stroke-dasharray="5 2 1 2" />
    <g>
     <g transform="rotate(100, 246, 194)">
      <line class="radii" x1="246" y1="194" x2="179" y2="194" />
@@ -70,16 +60,13 @@
    </g>
   </g>
   <g transform="rotate(-60, 32, 194)">
-   <!--circle class="helpline" cx="106" cy="194" r="70" /-->
    <path class="helpline" d="M 94 263 A 70 70 180 0 0 118 263" />
-   <!--circle class="helpline" cx="196" cy="194" r="70" /-->
    <path class="helpline" d="M 184 263 A 70 70 180 0 0 208 263" />
-   <line class="helpline" x1="88" y1="264" x2="264" y2="264" />
+   <line class="helpline" x1="88" y1="264" x2="264" y2="264" stroke-dasharray="5 2 1 2" />
   </g>
   <g>
    <circle class="eyes" cx="153" cy="124" r="3" />
    <text x="156" y="140">M</text>
-   <!--circle class="helpline" cx="153" cy="124" r="70" /-->
    <g>
     <g transform="rotate(14, 153, 124)">
      <line class="radii" x1="150" y1="124" x2="86" y2="124" />

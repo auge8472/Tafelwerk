@@ -14,7 +14,7 @@
  </style>
  <g>
   <g>
-   <line class="helpline" x1="12" y1="144" x2="154" y2="144" />
+   <line class="helpline" x1="12" y1="144" x2="154" y2="144" stroke-dasharray="5 2 1 2" />
    <g>
     <g transform="rotate(90, 36, 224)">
      <line class="radii" x1="33" y1="224" x2="-41" y2="224" />
@@ -27,11 +27,10 @@
   <g>
    <circle class="eyes" cx="130" cy="144" r="3" />
    <text x="110" y="160" dy="0, 2px">M<tspan>2</tspan></text>
-   <!--circle class="helpline" cx="130" cy="144" r="80" /-->
    <path class="helpline" d="M 88 212 A 80 80 180 0 0 183 84" />
   </g>
   <g>
-   <line class="helpline" x1="300" y1="38" x2="130" y2="144" />
+   <line class="helpline" x1="300" y1="38" x2="130" y2="144" stroke-dasharray="5 2 1 2" />
   </g>
   <g>
    <g transform="rotate(-144, 130, 144)">
@@ -41,16 +40,14 @@
    <text x="175" y="172" dy="0, 2px">r<tspan>2</tspan></text>
   </g>
   <g>
-   <line class="helpline" x1="130" y1="136" x2="130" y2="232" />
+   <line class="helpline" x1="130" y1="136" x2="130" y2="232" stroke-dasharray="5 2 1 2" />
    <text x="134" y="240" dy="0, 0, 2px">BP<tspan>1</tspan></text>
   </g>
  </g>
  <g>
   <circle class="eyes" cx="300" cy="38" r="3" />
   <text x="280" y="32" dy="0, 2px">M<tspan>1</tspan></text>
-  <!--circle class="helpline" cx="300" cy="38" r="120" /-->
   <path class="constructor" d="M 184.8 4 A 120 120 180 0 0 300 158" />
-  <!--circle class="helpline" cx="300" cy="38" r="200" /-->
   <path class="helpline" d="M 100 41 A 200 200 180 0 0 139 157" />
   <g>
    <g transform="rotate(4, 300, 38)">
@@ -69,7 +66,7 @@
   <text x="208" y="108" dy="0, 0, 2px">BP<tspan>2</tspan></text>
  </g>
  <g id="figure">
-  <line class="constructor" x1="6" y1="224" x2="188" y2="224" />
+  <line class="constructor" x1="6" y1="224" x2="200" y2="224" />
   <path class="result" d="M 10 224, 130 224 A 80 80 180 0 0 198 102 A 120 120 180 0 1 184 8" />
  </g>
 </svg>

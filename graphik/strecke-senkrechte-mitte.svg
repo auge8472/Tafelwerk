@@ -15,7 +15,7 @@
  </style>
  <g>
   <g>
-   <line class="helpline" x1="20" y1="220" x2="300" y2="220" />
+   <line class="helpline" x1="20" y1="220" x2="300" y2="220" stroke-dasharray="5 2 1 2" />
   </g>
   <g>
    <g>
@@ -56,7 +56,7 @@
    </g>
    <g>
     <text x="147" y="58">D</text>
-    <line class="helpline" x1="160" y1="20" x2="160" y2="220" />
+    <line class="helpline" x1="160" y1="20" x2="160" y2="220" stroke-dasharray="5 2 1 2" />
    </g>
   </g>
   <g>

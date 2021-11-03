@@ -14,7 +14,7 @@
  </style>
  <g>
   <g>
-   <line class="helpline" x1="40" y1="104" x2="250" y2="104" />
+   <line class="helpline" x1="40" y1="104" x2="250" y2="104" stroke-dasharray="5 2 1 2" />
   </g>
   <g>
    <circle class="eyes" cx="60" cy="104" r="3" />
@@ -72,9 +72,9 @@
   </g>
  </g>
  <g>
-  <line class="helpline" x1="22" y1="64" x2="174" y2="224.2" />
+  <line class="helpline" x1="22" y1="64" x2="174" y2="224.2" stroke-dasharray="5 2 1 2" />
   <text x="10" y="59" dy="0, 0, 2px">BP<tspan>1</tspan></text>
-  <line class="helpline" x1="268.6" y1="28" x2="168.6" y2="224.2" />
+  <line class="helpline" x1="268.6" y1="28" x2="168.6" y2="224.2" stroke-dasharray="5 2 1 2" />
   <text x="260" y="24" dy="0, 0, 2px">BP<tspan>2</tspan></text>
  </g>
  <g id="figure">
