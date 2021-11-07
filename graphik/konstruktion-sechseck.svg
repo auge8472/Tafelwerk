@@ -57,12 +57,12 @@
     </g>
   </g>
   <g>
-   <line class="constructor" x1="160" y1="28" x2="247" y2="78" />
-   <line class="constructor" x1="247" y1="78" x2="247" y2="178" />
-   <line class="constructor" x1="247" y1="178" x2="160" y2="228" />
-   <line class="constructor" x1="160" y1="228" x2="73" y2="178" />
-   <line class="constructor" x1="73" y1="178" x2="73" y2="78" />
-   <line class="constructor" x1="73" y1="78" x2="160" y2="28" />
+   <line class="constructor" x1="160" y1="28" x2="246.5" y2="78" />
+   <line class="constructor" x1="246.5" y1="78" x2="246.5" y2="178" />
+   <line class="constructor" x1="246.5" y1="178" x2="160" y2="228" />
+   <line class="constructor" x1="160" y1="228" x2="73.5" y2="178" />
+   <line class="constructor" x1="73.5" y1="178" x2="73.5" y2="78" />
+   <line class="constructor" x1="73.5" y1="78" x2="160" y2="28" />
    <text x="252" y="84">B</text>
    <text x="252" y="184">C</text>
    <text x="58" y="184">E</text>
@@ -74,6 +74,6 @@
   </g>
  </g>
  <g id="figure">
-  <polygon class="result" points="160 28, 247 78, 247 178, 160 228, 73 178, 73 78" stroke-linejoin="round" />
+  <polygon class="result" points="160 28, 246.5 78, 246.5 178, 160 228, 73.5 178, 73.5 78" stroke-linejoin="round" />
  </g>
 </svg>
