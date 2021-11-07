@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .constructor-filled { fill: #222; stroke: none; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  tspan { font-size: 60%; }
+  ]]>
+ </style>
+ <g>
+  <g id="basement">
+   <line class="helpline" x1="20" y1="128" x2="300" y2="128" stroke-dasharray="5 2 1 2" />
+   <line class="helpline" x1="160" y1="20" x2="160" y2="236" stroke-dasharray="5 2 1 2" />
+   <g>
+    <circle class="eyes" cx="160" cy="128" r="3" />
+    <circle class="helpline" cx="160" cy="128" r="100" />
+    <text x="164" y="124">M</text>
+    <g>
+     <g transform="rotate(58, 160, 128)">
+      <line class="radii" x1="157" y1="128" x2="63" y2="128" />
+      <polygon class="arrowhead" points="60,128 72,124 72,132" />
+     </g>
+     <text x="118" y="86">r</text>
+    </g>
+   </g>
+  </g>
+  <g>
+   <circle class="eyes" cx="160" cy="28" r="3" />
+   <text x="164" y="24">A</text>
+   <!--circle class="helpline" cx="160" cy="28" r="100" /-->
+   <path class="helpline" d="M 69 69.5 A 100 100 180 0 0 251 69.5" />
+    <g>
+     <g transform="rotate(244, 160, 28)">
+      <line class="radii" x1="157" y1="28" x2="63" y2="28" />
+      <polygon class="arrowhead" points="60,28 72,24 72,32" />
+     </g>
+     <text x="178" y="92">r</text>
+    </g>
+  </g>
+  <g>
+   <circle class="eyes" cx="260" cy="128" r="3" />
+   <text x="264" y="124">B</text>
+   <!--circle class="helpline" cx="260" cy="128" r="100" /-->
+   <path class="helpline" d="M 220 36.4 A 100 100 180 0 0 220 219.6" />
+    <g>
+     <g transform="rotate(334, 260, 128)">
+      <line class="radii" x1="257" y1="128" x2="163" y2="128" />
+      <polygon class="arrowhead" points="160,128 172,124 172,132" />
+     </g>
+     <text x="204" y="168">r</text>
+    </g>
+  </g>
+  <g>
+   <circle class="eyes" cx="160" cy="228" r="3" />
+   <text x="164" y="242">C</text>
+   <!--circle class="helpline" cx="160" cy="228" r="100" /-->
+   <path class="helpline" d="M 69 186.5 A 100 100 180 0 1 251 186.5" />
+    <g>
+     <g transform="rotate(64, 160, 228)">
+      <line class="radii" x1="157" y1="228" x2="63" y2="228" />
+      <polygon class="arrowhead" points="60,228 72,224 72,232" />
+     </g>
+     <text x="122" y="182">r</text>
+    </g>
+  </g>
+  <g>
+   <circle class="eyes" cx="60" cy="128" r="3" />
+   <text x="48" y="124">D</text>
+   <!--circle class="helpline" cx="60" cy="128" r="100" /-->
+   <path class="helpline" d="M 100 36.4 A 100 100 180 0 1 100 219.6" />
+    <g>
+     <g transform="rotate(154, 60, 128)">
+      <line class="radii" x1="57" y1="128" x2="-37" y2="128" />
+      <polygon class="arrowhead" points="-40,128 -28,124 -28,132" />
+     </g>
+     <text x="42" y="72">r</text>
+    </g>
+  </g>
+  <g>
+   <line class="constructor" x1="160" y1="28" x2="210.5" y2="41.5" />
+   <line class="constructor" x1="210.5" y1="41.5" x2="246.5" y2="78" />
+   <line class="constructor" x1="246.5" y1="78" x2="260" y2="128" />
+   <line class="constructor" x1="260" y1="128" x2="246.5" y2="178" />
+   <line class="constructor" x1="246.5" y1="178" x2="210.5" y2="214.5" />
+   <line class="constructor" x1="210.5" y1="214.5" x2="160" y2="228" />
+   <line class="constructor" x1="160" y1="228" x2="109.5" y2="214.5" />
+   <line class="constructor" x1="109.5" y1="214.5" x2="73.5" y2="178" />
+   <line class="constructor" x1="73.5" y1="178" x2="60" y2="128" />
+   <line class="constructor" x1="60" y1="128" x2="73.5" y2="78" />
+   <line class="constructor" x1="73.5" y1="78" x2="109.5" y2="41.5" />
+   <line class="constructor" x1="109.5" y1="41.5" x2="160" y2="28" />
+  </g>
+ </g>
+ <g id="figure">
+  <polygon class="result" points="160 28, 210.5 41.4, 246.5 78, 260 128, 246.5 178, 210.5 214.5, 160 228, 109.5 214.5, 73.5 178, 60 128, 73.5 78, 109.5 41.5" stroke-linejoin="round" />
+ </g>
+</svg>
