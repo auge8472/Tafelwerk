@@ -273,7 +273,7 @@ table.wholepage td, table.periods th, table.periods td {
 #section-elem-list ol {
 	display: grid;
 	grid-gap: 0.5em;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
 	list-style: none;
 	padding: 0;
 	margin: 0;
