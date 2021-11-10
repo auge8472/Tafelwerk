@@ -322,10 +322,11 @@ table.wholepage td, table.periods th, table.periods td {
 	table {
 		width: 100%;
 	}
-	table:not(.wholepage) thead {
+	table:not(.wholepage):not(.periods) thead {
 		display: none;
 	}
-	table:not(.wholepage) tr, table:not(.wholepage) td {
+	table:not(.wholepage):not(.periods) tr,
+	table:not(.wholepage):not(.periods) td {
 		display: block;
 		width: calc(100% - 1px);
 	}
