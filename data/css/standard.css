@@ -56,12 +56,28 @@ nav {
 	margin: 0 0.5rem;
 	padding: 0;
 }
+main {
+	display: block;
+	margin: 0 0.5em;
+	margin: 0 0.5rem;
+	padding: 0;
+}
+
 nav h2 {
 	display: none;
 }
 nav ul {
 	margin: 1em 0;
 	padding: 0;
+}
+main #breadcrumb {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35em;
+	list-style: none;
+	margin: 0 0 1em 0;
+	padding: 0 0 0.5em 0;
+	border-bottom: 1px solid #eee;
 }
 nav li {
 	list-style: none;
@@ -71,39 +87,51 @@ nav li {
 nav li:last-child {
 	margin: 0;
 }
-nav a {
+nav a,
+#breadcrumb a {
 	display: inline-block;
-	box-shadow: 0.1em 0.1em 0.25em hsla(0, 0%, 80%, 0.5);
+	box-shadow: 0em 0em 0.5em hsla(0, 0%, 40%, 0.5);
 	width: 100%;
-	border: 1px solid #ffe;
+	border: 1px solid transparent;
 	border-radius: 0.2em;
 	border-radius: 0.2rem;
-	padding: 0.2em 0.4em;
-	padding: 0.2rem 0.4rem;
 	text-decoration: none;
 	background: #efa;
 }
-nav a:link, nav a:visited {
+nav a {
+	padding: 0.2em 0.4em;
+	padding: 0.2rem 0.4rem;
+}
+#breadcrumb a {
+	padding: 0.1em 0.2em;
+	padding: 0.1rem 0.2rem;
+}
+nav a:link,
+nav a:visited,
+#breadcrumb a:link,
+#breadcrumb a:visited {
 	border-color: #cc5;
 	background: #cc5;
 	color: #220;
 }
-nav a:focus, nav a:hover {
+nav a:focus,
+nav a:hover,
+#breadcrumb a:focus,
+#breadcrumb a:hover {
 	border-color: #ee9;
 	background: #ee9;
 	color: #420;
 }
-nav a:active {
+nav a:active,
+#breadcrumb a:active {
 	border-color: #eda;
 	background: #eda;
 	color: #ffc;
 }
-
-main {
-	display: block;
-	margin: 0 0.5em;
-	margin: 0 0.5rem;
-	padding: 0;
+#breadcrumb a:not([href]) {
+	font-style: italic;
+	background-color: #eda;
+	background: #eda;
 }
 
 footer {
