@@ -382,8 +382,8 @@ table.wholepage td, table.periods th, table.periods td {
 		display: flex;
 		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap;
-		margin: 0.5em 0 1em 0;
-		margin: 0.5rem 0 1rem 0;
+		margin: 0.5em 0;
+		margin: 0.5rem 0;
 	}
 	nav li {
 		-webkit-flex: 1;
@@ -400,8 +400,8 @@ table.wholepage td, table.periods th, table.periods td {
 
 @media screen and (min-width: 30em) {
 	main {
-		margin: 1em auto 0.5em auto;
-		margin: 1rem auto 0.5rem auto;
+		margin: 0.5em auto;
+		margin: 0.5rem auto;
 		padding: 0.5em 1em;
 		padding: 0.5rem 1rem;
 	}
