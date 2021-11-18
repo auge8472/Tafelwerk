@@ -427,6 +427,6 @@ table.wholepage td, table.periods th, table.periods td {
 		border-radius: 0.2em;
 		border-radius: 0.2rem;
 		box-shadow: 0.2em 0.2em 0.3em hsla(0, 0%, 80%, 0.3);
-		max-width: 50em;
+		width: 50em;
 	}
 }
