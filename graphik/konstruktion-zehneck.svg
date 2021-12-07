@@ -30,12 +30,6 @@
     </g>
    </g>
   </g>
-  <!--g>
-   <line transform="rotate(54, 160, 128)" class="constructor" x1="54" y1="128" x2="266" y2="128" />
-   <line transform="rotate(18, 160, 128)" class="constructor" x1="54" y1="128" x2="266" y2="128" />
-   <line transform="rotate(-18, 160, 128)" class="constructor" x1="54" y1="128" x2="266" y2="128" />
-   <line transform="rotate(-54, 160, 128)" class="constructor" x1="54" y1="128" x2="266" y2="128" />
-  </g-->
   <g>
    <text x="264" y="124">A</text>
    <!--circle class="helpline" cx="260" cy="128" r="100" /-->
@@ -71,45 +65,26 @@
    </g>
   </g>
   <g>
-   <!--circle class="helpline" cx="160" cy="28" r="61.75" /-->
    <path class="helpline" d="M 221.0 38 A 61.75 61.75 180 0 1 214.1 58" />
    <path class="helpline" d="M 105.425 57 A 61.75 61.75 180 0 1 99.4 40" />
-   <!--line class="constructor" x1="54" y1="47.125" x2="266" y2="47.125" />
-   <line class="constructor" x1="101.2" y1="37.15" x2="101.2" y2="57.15" />
-   <line class="constructor" x1="218.8" y1="37.15" x2="218.8" y2="57.15" /-->
   </g>
   <g>
-   <!--circle class="helpline" cx="101.2" cy="47.125" r="61.75" /-->
    <path class="helpline" d="M 73.4 102.3 A 61.75 61.75 180 0 1 53.2 86" />
   </g>
   <g>
-   <!--circle class="helpline" cx="218.8" cy="47.125" r="61.75" /-->
    <path class="helpline" d="M 262.3 91 A 61.75 61.75 180 0 1 242.8 104.1" />
-   <!--line class="constructor" x1="54" y1="97.125" x2="266" y2="97.125" />
-   <line class="constructor" x1="64.85" y1="87.6" x2="64.85" y2="107.6" />
-   <line class="constructor" x1="255.15" y1="87.6" x2="255.15" y2="107.6" /-->
   </g>
   <g>
-   <!--circle class="helpline" cx="64.85" cy="97.125" r="61.75" /-->
    <path class="helpline" d="M 79.8 157.1 A 61.75 61.75 180 0 1 54 158" />
   </g>
   <g>
-   <!--circle class="helpline" cx="255.15" cy="97.125" r="61.75" /-->
    <path class="helpline" d="M 266 157.9 A 61.75 61.75 180 0 1 244 157.9" />
-   <!--line class="constructor" x1="54" y1="158.875" x2="266" y2="158.875" />
-   <line class="constructor" x1="64.85" y1="89.8" x2="64.85" y2="169.8" />
-   <line class="constructor" x1="255.15" y1="149.8" x2="255.15" y2="169.8" /-->
   </g>
   <g>
-   <!--circle class="helpline" cx="64.85" cy="158.875" r="61.75" /-->
    <path class="helpline" d="M 108 203 A 61.75 61.75 180 0 1 90 215.3" />
   </g>
   <g>
-   <!--circle class="helpline" cx="255.15" cy="158.875" r="61.75" /-->
    <path class="helpline" d="M 230 215.25 A 61.75 61.75 180 0 1 213.8 204.65" />
-   <!--line class="constructor" x1="54" y1="208.875" x2="266" y2="208.875" />
-   <line class="constructor" x1="101.2" y1="197.7" x2="101.2" y2="217.7" />
-   <line class="constructor" x1="218.8" y1="197.7" x2="218.8" y2="217.7" /-->
   </g>
   <g>
    <line class="constructor" x1="160" y1="28" x2="218.8" y2="47.125" />

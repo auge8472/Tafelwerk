@@ -65,16 +65,13 @@
   </g>
   <g>
    <g>
-    <!--circle class="helpline" cx="160" cy="28" r="118" /-->
     <path class="helpline" d="M 262 87.3 A 118 118 180 0 1 246 108.7" />
     <path class="helpline" d="M 74 108.7 A 118 118 180 0 1 58 87.3" />
    </g>
    <g>
-    <!--circle class="helpline" cx="64.8" cy="97.65" r="118" /-->
     <path class="helpline" d="M 108 207.4 A 118 118 180 0 1 86 213.8" />
    </g>
    <g>
-    <!--circle class="helpline" cx="255.2" cy="97.65" r="118" /-->
     <path class="helpline" d="M 234 213.8 A 118 118 180 0 1 212 207.4" />
    </g>
   </g>

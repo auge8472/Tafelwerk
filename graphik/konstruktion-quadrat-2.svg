@@ -33,7 +33,6 @@
   <g>
    <circle class="eyes" cx="160" cy="28" r="3" />
    <text x="164" y="24">A</text>
-   <!--circle class="helpline" cx="160" cy="28" r="100" /-->
    <path class="helpline" d="M 61 14 A 100 100 180 0 0 63 52" />
    <path class="helpline" d="M 257 52 A 100 100 180 0 0 259 14" />
     <g>
@@ -47,7 +46,6 @@
   <g>
    <circle class="eyes" cx="260" cy="128" r="3" />
    <text x="264" y="124">B</text>
-   <!--circle class="helpline" cx="260" cy="128" r="100" /-->
    <path class="helpline" d="M 274 29 A 100 100 180 0 0 240 30" />
    <path class="helpline" d="M 240 226 A 100 100 180 0 0 274 227" />
     <g>
@@ -61,7 +59,6 @@
   <g>
    <circle class="eyes" cx="160" cy="228" r="3" />
    <text x="164" y="242">C</text>
-   <!--circle class="helpline" cx="160" cy="228" r="100" /-->
    <path class="helpline" d="M 61.3 244 A 100 100 180 0 1 60.5 219" />
    <path class="helpline" d="M 259.6 219 A 100 100 180 0 1 258.7 244" />
     <g>
@@ -75,7 +72,6 @@
   <g>
    <circle class="eyes" cx="60" cy="128" r="3" />
    <text x="48" y="124">D</text>
-   <!--circle class="helpline" cx="60" cy="128" r="100" /-->
    <path class="helpline" d="M 46 29 A 100 100 180 0 1 72 28.7" />
    <path class="helpline" d="M 46 227 A 100 100 180 0 0 72 227.3" />
     <g>

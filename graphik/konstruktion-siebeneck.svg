@@ -54,34 +54,20 @@
    </g>
   </g>
   <g>
-   <!--circle class="helpline" cx="160" cy="28" r="86.7" /-->
    <path class="helpline" d="M 242.4 55 A 86.7 86.7 180 0 1 234.8 72" />
    <path class="helpline" d="M 85.2 72 A 86.7 86.7 180 0 1 77.5 55" />
-   <!--line class="helpline" x1="54" y1="65.7" x2="266" y2="65.7" />
-   <line class="helpline" x1="81.9" y1="45.7" x2="81.9" y2="85.7" />
-   <line class="helpline" x1="238.1" y1="45.7" x2="238.1" y2="85.7" /-->
   </g>
   <g>
-   <!--circle class="helpline" cx="81.9" cy="65.7" r="86.7" /-->
    <path class="helpline" d="M 48 145.6 A 86.7 86.7 180 0 0 76 152.2" />
   </g>
   <g>
-   <!--circle class="helpline" cx="238.1" cy="65.7" r="86.7" /-->
    <path class="helpline" d="M 244 152.2 A 86.7 86.7 180 0 0 272 145.6" />
-   <!--line class="helpline" x1="54" y1="150.3" x2="266" y2="150.3" />
-   <line class="helpline" x1="62.4" y1="135.7" x2="62.4" y2="165.7" />
-   <line class="helpline" x1="257.6" y1="135.7" x2="257.6" y2="165.7" /-->
   </g>
   <g>
-   <!--circle class="helpline" cx="62.4" cy="150.3" r="86.7" /-->
    <path class="helpline" d="M 104 226.4 A 86.7 86.7 180 0 0 126 209.2" />
   </g>
   <g>
-   <!--circle class="helpline" cx="257.6" cy="150.3" r="86.7" /-->
    <path class="helpline" d="M 194 209.2 A 86.7 86.7 180 0 0 216 226.4" />
-   <!--line class="helpline" x1="54" y1="218.1" x2="266" y2="218.1" />
-   <line class="helpline" x1="116.65" y1="198" x2="116.65" y2="238" />
-   <line class="helpline" x1="203.35" y1="198" x2="203.35" y2="238" /-->
   </g>
   <g>
    <line class="constructor" x1="160" y1="28" x2="238.1" y2="65.7" />

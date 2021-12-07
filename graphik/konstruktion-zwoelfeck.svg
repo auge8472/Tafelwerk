@@ -33,7 +33,6 @@
   <g>
    <circle class="eyes" cx="160" cy="28" r="3" />
    <text x="164" y="24">A</text>
-   <!--circle class="helpline" cx="160" cy="28" r="100" /-->
    <path class="helpline" d="M 69 69.5 A 100 100 180 0 0 251 69.5" />
     <g>
      <g transform="rotate(244, 160, 28)">
@@ -46,7 +45,6 @@
   <g>
    <circle class="eyes" cx="260" cy="128" r="3" />
    <text x="264" y="124">B</text>
-   <!--circle class="helpline" cx="260" cy="128" r="100" /-->
    <path class="helpline" d="M 220 36.4 A 100 100 180 0 0 220 219.6" />
     <g>
      <g transform="rotate(334, 260, 128)">
@@ -59,7 +57,6 @@
   <g>
    <circle class="eyes" cx="160" cy="228" r="3" />
    <text x="164" y="242">C</text>
-   <!--circle class="helpline" cx="160" cy="228" r="100" /-->
    <path class="helpline" d="M 69 186.5 A 100 100 180 0 1 251 186.5" />
     <g>
      <g transform="rotate(64, 160, 228)">
@@ -72,7 +69,6 @@
   <g>
    <circle class="eyes" cx="60" cy="128" r="3" />
    <text x="48" y="124">D</text>
-   <!--circle class="helpline" cx="60" cy="128" r="100" /-->
    <path class="helpline" d="M 100 36.4 A 100 100 180 0 1 100 219.6" />
     <g>
      <g transform="rotate(154, 60, 128)">

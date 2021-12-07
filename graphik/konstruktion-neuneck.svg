@@ -32,7 +32,6 @@
   </g>
   <g>
    <text x="264" y="124">A</text>
-   <!--circle class="helpline" cx="260" cy="128" r="100" /-->
    <path class="helpline" d="M 296 34.7 A 100 100 180 0 0 160.4 136" />
     <g>
      <g transform="rotate(106, 260, 128)">
@@ -45,7 +44,6 @@
   <g>
    <text x="48" y="124">B</text>
    <text x="164" y="24">C</text>
-   <!--circle class="helpline" cx="60" cy="128" r="141.4" /-->
    <path class="helpline" d="M 155.8 24 A 141.4 141.4 180 0 1 155.8 232" />
    <g>
     <g transform="rotate(216, 60, 128)">
@@ -65,39 +63,26 @@
    </g>
   </g>
   <g>
-   <!--circle class="helpline" cx="160" cy="28" r="68.3" /-->
    <path class="helpline" d="M 227.6 38 A 68.3 68.3 180 0 1 219.3 62" />
    <path class="helpline" d="M 102 64 A 68.3 68.3 180 0 1 92.9 41" />
   </g>
   <g>
-   <!--circle class="helpline" cx="95.8" cy="51.4" r="68.3" /-->
    <path class="helpline" d="M 72.4 115.55 A 68.3 68.3 180 0 1 50.6 102.55" />
   </g>
   <g>
-   <!--circle class="helpline" cx="224.2" cy="51.4" r="68.3" /-->
    <path class="helpline" d="M 262.4 108 A 68.3 68.3 180 0 1 242.8 117.1" />
   </g>
   <g>
-   <!--circle class="helpline" cx="61.55" cy="110.45" r="68.3" /-->
    <path class="helpline" d="M 86 174.2 A 68.3 68.3 180 0 1 58 178.7" />
   </g>
   <g>
-   <!--circle class="helpline" cx="258.45" cy="110.45" r="68.3" /-->
    <path class="helpline" d="M 260 178.7 A 68.3 68.3 180 0 1 236 175" />
-   <!--line class="helpline" x1="54" y1="110.45" x2="266" y2="110.45" />
-   <line class="helpline" x1="61.55" y1="90.4" x2="61.55" y2="130.4" />
-   <line class="helpline" x1="258.45" y1="90.4" x2="258.45" y2="130.4" /-->
   </g>
   <g>
-   <!--circle class="helpline" cx="73.3" cy="177.8" r="68.3" /-->
    <path class="helpline" d="M 133.55 210 A 68.3 68.3 180 0 1 112.15 234" />
   </g>
   <g>
-   <!--circle class="helpline" cx="246.7" cy="177.8" r="68.3" /-->
    <path class="helpline" d="M 205.15 232 A 68.3 68.3 180 0 1 187 211" />
-   <!--line class="helpline" x1="54" y1="177.8" x2="266" y2="177.8" />
-   <line class="helpline" x1="73.3" y1="157.7" x2="73.3" y2="197.7" />
-   <line class="helpline" x1="246.7" y1="157.7" x2="246.7" y2="197.7" /-->
   </g>
   <g>
    <line class="constructor" x1="160" y1="28" x2="224.2" y2="51.4" />
