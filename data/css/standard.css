@@ -5,6 +5,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	color: #222;
 }
 
 body {
@@ -65,6 +66,7 @@ main {
 	margin: 0 0.5rem;
 	padding: 0;
 	flex: 1;
+	background: #f8f9fa;
 }
 
 nav h2 {
@@ -422,7 +424,6 @@ table.wholepage td, table.periods th, table.periods td {
 
 @media screen and (min-width: 52em) {
 	main {
-		background: #fbfbfb;
 		border: 1px solid #eee;
 		border-radius: 0.2em;
 		border-radius: 0.2rem;
