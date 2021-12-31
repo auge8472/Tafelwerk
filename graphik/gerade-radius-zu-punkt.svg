@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="256" viewBox="0 0 320 256">
+ <style type="text/css">
+  <![CDATA[
+  .eyes { fill: #999; stroke: none; }
+  .baseline, .helpline { fill: none; stroke-width: 1px; stroke: #999; }
+  .marker, .radii { fill: none; stroke-width: 1px; stroke: #555; }
+  .dot, .arrowhead { fill: #555; stroke: none; }
+  .constructor { fill: none; stroke-width: 1px; stroke: #222; }
+  .result { fill: none; stroke-width: 3px; stroke: #222; }
+  text { color: #222; font-size: 14px; }
+  ]]>
+ </style>
+ <g>
+  <g>
+   <path class="helpline" d="M 100 254 A 60 60 180 0 0 126 246" />
+   <path class="helpline" d="M 124 141 A 60 60 180 0 0 100 134" />
+   <path class="helpline" d="M 124 135 A 60 60 180 0 0 106 142" />
+   <path class="helpline" d="M 105 245 A 60 60 180 0 0 124 253" />
+   <line class="helpline" x1="116" y1="98" x2="116" y2="254" />
+   <path class="helpline" d="M 230 254 A 60 60 180 0 0 256 246" />
+   <path class="helpline" d="M 254 141 A 60 60 180 0 0 230 134" />
+   <path class="helpline" d="M 254 135 A 60 60 180 0 0 236 142" />
+   <path class="helpline" d="M 235 245 A 60 60 180 0 0 254 253" />
+   <line class="helpline" x1="246" y1="98" x2="246" y2="254" />
+  </g>
+ </g>
+ <g>
+  <g>
+   <line class="helpline" x1="98" y1="104" x2="316" y2="104" stroke-dasharray="5 2 1 2" />
+   <!--circle class="helpline" cx="116" cy="194" r="90" /-->
+   <path class="helpline" d="M 130 105.15 A 90 90 180 0 0 102 105.15" />
+   <!--circle class="helpline" cx="246" cy="194" r="90" /-->
+   <path class="helpline" d="M 264 105.8 A 90 90 180 0 0 232 105.15" />
+   <g>
+    <g transform="rotate(100, 246, 194)">
+     <line class="radii" x1="246" y1="194" x2="159" y2="194" />
+     <polygon class="arrowhead" points="156,194 168,190 168,198" />
+    </g>
+    <text x="258" y="152">r</text>
+   </g>
+   <g>
+    <g transform="rotate(90, 303, 194)">
+     <line class="radii" x1="300" y1="194" x2="216" y2="194" />
+     <polygon class="arrowhead" points="213,194 225,190 225,198" />
+     <polygon class="arrowhead" points="303,194 291,190 291,198" />
+    </g>
+    <text x="307" y="152">r</text>
+   </g>
+  </g>
+  <g>
+   <!--circle class="helpline" cx="85" cy="34" r="90" /-->
+   <path class="helpline" d="M 86 124 A 90 90 180 0 0 151 95.2" />
+   <text x="72" y="30">A</text>
+   <g>
+    <g transform="rotate(262, 85, 34)">
+     <line class="radii" x1="85" y1="34" x2="-2" y2="34" />
+     <polygon class="arrowhead" points="-5,34 7,30 7,38" />
+    </g>
+    <text x="97" y="94">r</text>
+   </g>
+  </g>
+  <g>
+   <!--circle class="eyes" cx="141.55" cy="104" r="3" /-->
+   <!--circle class="helpline" cx="141.55" cy="104" r="90" /-->
+   <text x="145" y="120">M</text>
+   <line class="helpline" x1="141.55" y1="100" x2="141.55" y2="198" stroke-dasharray="5 2 1 2" />
+   <text x="145" y="210">B</text>
+   <path class="helpline" d="M 110.1 19.65 A 90 90 180 0 0 166 190.6" />
+   <g>
+    <g transform="rotate(68, 141.55, 104)">
+     <line class="radii" x1="141.55" y1="104" x2="54.55" y2="104" />
+     <polygon class="arrowhead" points="51.55,104 63.55,100 63.55,108" />
+    </g>
+    <text x="124" y="54">r</text>
+   </g>
+  </g>
+ </g>
+ <g id="angle">
+  <line class="constructor" x1="32" y1="194" x2="316" y2="194" />
+   <text x="31" y="210">C</text>
+   <text x="307" y="210">D</text>
+   <line class="constructor" x1="80" y1="34" x2="90" y2="34" />
+   <line class="constructor" x1="85" y1="29" x2="85" y2="39" />
+ </g>
+ <g>
+  <path class="result" d="M 312 194 141.55 194 A 90 90 180 0 1 85 34" />
+ </g>
+</svg>
