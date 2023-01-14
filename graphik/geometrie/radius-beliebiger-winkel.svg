@@ -67,6 +67,10 @@
   <g>
    <circle class="eyes" cx="153" cy="124" r="3" />
    <text x="156" y="140">M</text>
+  <line class="helpline" x1="159" y1="124" x2="78" y2="124" transform="rotate(30, 153, 124)" stroke-dasharray="5 2 1 2" />
+  <text x="80" y="82">B</text>
+  <line class="helpline" x1="153" y1="118" x2="153" y2="200" stroke-dasharray="5 2 1 2" />
+  <text x="157" y="210">C</text>
    <g>
     <g transform="rotate(14, 153, 124)">
      <line class="radii" x1="150" y1="124" x2="86" y2="124" />
@@ -81,6 +85,7 @@
   <line class="constructor" x1="32" y1="194" x2="244" y2="194" transform="rotate(-60, 32, 194)" />
   <path class="marker" d="M 56 194 A 24 24 180 0 0 44 173" />
   <text x="42" y="189">α</text>
+  <text x="31" y="210">A</text>
  </g>
  <g>
   <path class="result" d="M 135.9 14, 93.2 88 A 70 70 180 0 0 153 194 L 312 194" />
