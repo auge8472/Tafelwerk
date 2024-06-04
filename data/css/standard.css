@@ -264,6 +264,7 @@ table.wholepage td, table.periods th, table.periods td {
 	display: block;
 	width: 100%;
 	height: 100%;
+	align-content: center;
 }
 .periods tbody a:focus.elem-un, .periods tbody a:hover.elem-un {
 	color: #445;
@@ -334,9 +335,10 @@ table.wholepage td, table.periods th, table.periods td {
 	width: 1.65em;
 	height: 1.65em;
 	margin: 0 0.3em 0 0;
-	padding: 0 0 0.2em 0;
+	padding: 0;
 	border: 1px solid #222;
 	text-align: center;
+	align-content: center;
 }
 #section-elem-list ol {
 	display: grid;
