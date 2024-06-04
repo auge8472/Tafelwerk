@@ -344,7 +344,7 @@ table.wholepage td, table.periods th, table.periods td {
 	grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 0 1em 0;
 }
 #section-elem-list ol > li {
 	border: 1px solid #e4e4e4;
