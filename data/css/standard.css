@@ -109,8 +109,8 @@ nav a {
 	padding: 0.2rem 0.4rem;
 }
 #breadcrumb a {
-	padding: 0.1em 0.2em;
-	padding: 0.1rem 0.2rem;
+	padding: 0.125em 0.25em;
+	padding: 0.125rem 0.25rem;
 }
 nav a:link,
 nav a:visited,
