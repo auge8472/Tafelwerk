@@ -134,10 +134,14 @@ nav a:active,
 	background: #eda;
 	color: #ffc;
 }
+nav a:not([href]),
 #breadcrumb a:not([href]) {
 	font-style: italic;
-	background-color: #eda;
-	background: #eda;
+	border-color: #651;
+	background: #651;
+	color: #eda;
+	font-style: italic;
+	font-weight: bold;
 }
 
 footer {
