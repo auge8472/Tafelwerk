@@ -184,6 +184,12 @@ a.flattr {
 	font-weight: bold;
 }
 
+section:not(:last-child) {
+	margin: 0 0 1em 0;
+	padding: 0 0 0.5em 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+
 svg {
 	display: inline-block;
 }
@@ -204,6 +210,7 @@ figure p {
 table {
 	border: 1px solid #222;
 	border-collapse: collapse;
+	margin: 0 0 1em 0;
 }
 tr {
 	border-bottom: 1px dotted #222;
@@ -431,8 +438,8 @@ table.wholepage td, table.periods th, table.periods td {
 	main {
 		margin: 0.5em auto;
 		margin: 0.5rem auto;
-		padding: 0.5em 1em;
-		padding: 0.5rem 1rem;
+		padding: 0.5em 1em 0.75em 1em;
+		padding: 0.5rem 1rem 0.75rem 1rem;
 	}
 	h1 .main-title {
 		font-size: 1.15em;
