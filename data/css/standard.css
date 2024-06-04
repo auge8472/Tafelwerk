@@ -94,28 +94,35 @@ nav li:last-child {
 	margin: 0;
 }
 nav a,
-#breadcrumb a {
+#breadcrumb a,
+.to-top-link a {
 	display: inline-block;
 	box-shadow: 0 0 0.4em hsla(0, 0%, 65%, 0.5);
-	width: 100%;
 	border: 1px solid transparent;
 	border-radius: 0.2em;
 	border-radius: 0.2rem;
 	text-decoration: none;
 	background: #efa;
 }
+nav a,
+#breadcrumb a {
+	width: 100%;
+}
 nav a {
 	padding: 0.2em 0.4em;
 	padding: 0.2rem 0.4rem;
 }
-#breadcrumb a {
+#breadcrumb a,
+.to-top-link a {
 	padding: 0.125em 0.25em;
 	padding: 0.125rem 0.25rem;
 }
 nav a:link,
 nav a:visited,
 #breadcrumb a:link,
-#breadcrumb a:visited {
+#breadcrumb a:visited,
+.to-top-link a:link,
+.to-top-link a:visited {
 	border-color: #cc5;
 	background: #cc5;
 	color: #220;
@@ -123,13 +130,16 @@ nav a:visited,
 nav a:focus,
 nav a:hover,
 #breadcrumb a:focus,
-#breadcrumb a:hover {
+#breadcrumb a:hover,
+.to-top-link a:focus,
+.to-top-link a:hover {
 	border-color: #ee9;
 	background: #ee9;
 	color: #420;
 }
 nav a:active,
-#breadcrumb a:active {
+#breadcrumb a:active,
+.to-top-link a:active {
 	border-color: #eda;
 	background: #eda;
 	color: #ffc;
