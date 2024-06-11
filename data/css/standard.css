@@ -294,19 +294,19 @@ table.wholepage td, table.periods th, table.periods td {
 	border: none;
 	cursor: pointer;
 }
-.periods tbody button:focus.elem-un,
-.periods tbody button:hover.elem-un {
+.periods tbody button:focus.elem-unknown,
+.periods tbody button:hover.elem-unknown {
 	color: #445;
 	background: #f0f2ff;
 	outline: 2px solid #66c;
 }
-.periods tbody button:focus.elem-sauer-stark,
-.periods tbody button:hover.elem-sauer-stark {
+.periods tbody button:focus.elem-strongly-acidic,
+.periods tbody button:hover.elem-strongly-acidic {
 	background: #ff6f6b;
 	outline: 2px solid #ffb480;
 }
-.periods tbody button:focus.elem-sauer-schwach,
-.periods tbody button:hover.elem-sauer-schwach {
+.periods tbody button:focus.elem-slightly-acidic,
+.periods tbody button:hover.elem-slightly-acidic {
 	color: #445;
 	background: #fff8db;
 	outline: 2px solid #d65;
@@ -317,49 +317,62 @@ table.wholepage td, table.periods th, table.periods td {
 	background: #fffa2b;
 	outline: 2px solid #2a4;
 }
-.periods tbody button:focus.elem-basisch-schwach,
-.periods tbody button:hover.elem-basisch-schwach {
+.periods tbody button:focus.elem-slightly-alkaline,
+.periods tbody button:hover.elem-slightly-alkaline {
 	color: #445;
 	background: #e8e8ff;
 	outline: 2px solid #66c;
 }
-.periods tbody button:focus.elem-basisch-stark,
-.periods tbody button:hover.elem-basisch-stark {
+.periods tbody button:focus.elem-strongly-alkaline,
+.periods tbody button:hover.elem-strongly-alkaline {
 	background: #8484ff;
 	outline: 2px solid #8af;
 }
-.periods tbody button:focus.elem-edelgas,
-.periods tbody button:hover.elem-edelgas {
+.periods tbody button:focus.elem-noble-gas,
+.periods tbody button:hover.elem-noble-gas {
 	color: #445;
 	background: #e8e8e8;
 	outline: 2px solid #559;
 }
 
-.elem-un {
+.elem-unknown {
 	background: #fff;
 }
-.elem-sauer-stark {
+.elem-strongly-acidic {
 	background: #f44;
 }
-.elem-sauer-schwach {
+.elem-slightly-acidic {
 	background: #fec;
 }
 .elem-neutral {
 	background: #fe0;
 }
-.elem-basisch-schwach {
+.elem-slightly-alkaline {
 	background: #ccf;
 }
-.elem-basisch-stark {
+.elem-strongly-alkaline {
 	background: #66f;
 }
-.elem-edelgas {
+.elem-noble-gas {
 	background: #ccc;
 }
-.elem-un, .elem-un a, .elem-edelgas, .elem-edelgas a, .elem-sauer-schwach, .elem-sauer-schwach a, .elem-neutral, .elem-neutral a, .elem-basisch-schwach, .elem-basisch-schwach a {
+.elem-unknown,
+.elem-unknown a,
+.elem-noble-gas,
+.elem-noble-gas a,
+.elem-slightly-acidic,
+.elem-slightly-acidic a,
+.elem-neutral,
+.elem-neutral a,
+.elem-slightly-alkaline,
+.elem-slightly-alkaline a {
 	color: #222;
 }
-.elem-sauer-stark, .elem-sauer-stark a, .elem-basisch-stark, .elem-basisch-stark a {
+
+.elem-strongly-acidic,
+.elem-strongly-acidic a,
+.elem-strongly-alkaline,
+.elem-strongly-alkaline a {
 	color: #fff;
 }
 .el-symbol {
