@@ -16,6 +16,8 @@
 	align-items: center;
 	padding: 0.05em;
 	cursor: pointer;
+	width: 1.6em;
+	height: 1.6em;
 }
 [popover] header button svg {
 	display: block;
