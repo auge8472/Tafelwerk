@@ -18,7 +18,7 @@ body {
 	flex-direction: column;
 }
 
-header {
+body > header {
 	margin: 0;
 	padding: 0;
 	background: #810;
