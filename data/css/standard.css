@@ -382,7 +382,7 @@ table.wholepage td, table.periods th, table.periods td {
 	border: 1px solid #e4e4e4;
 	border-radius: 0.2em;
 	border-radius: 0.2rem;
-	box-shadow: 0.2em 0.2em 0.3em hsla(0, 0%, 80%, 0.3);
+	box-shadow: 0 0 0.4em hsla(0, 0%, 65%, 0.5);
 	padding: 0.2em 0.4em;
 }
 #section-elem-list ol > li[popover] {
